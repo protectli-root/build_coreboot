@@ -1,0 +1,39 @@
+releases:
+        - version: v1.0.17
+          added:
+                - Tools for resigning Vboot images with one RW partition
+          changed:
+                - TCC temperature set to 80 degrees
+                - Disabled UEFI Secure Boot by default
+          fixed:
+                - Platform rebooting every 56 minutes
+                - Incorrect menu labels displayed in network boot menu
+
+        - version: v1.0.16
+          added:
+                - Vboot Verified Boot
+                - TPM Measured Boot
+                - Vboot recovery notification in UEFI Payload
+                - UEFI Shell
+                - UEFI Secure Boot
+                - Intel ME soft disable
+          changed:
+                - FSP changed to CometLake2
+          fixed:
+                - description: i225 network controller initialization takes too much time
+                  url: https://github.com/Dasharo/dasharo-issues/issues/65
+
+        - version: v1.0.13
+          added:
+                - UEFI boot support
+                - UEFI Shell selectable in boot menu
+                - Intel i225 controller network boot support
+                - Customized boot menu keys
+                - Customized setup menu keys
+                - Configurable boot order
+                - Configurable boot options
+          changed:
+                - ME version to 14.0.47.1558
+          known_issues:
+                - description: i225 network controller initialization takes too much time
+                  url: https://github.com/Dasharo/dasharo-issues/issues/65

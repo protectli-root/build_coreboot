@@ -1,0 +1,15 @@
+description: Named GPIOs parent node
+
+compatible: "named-gpios"
+
+child-binding:
+    description: Named GPIOs child node
+    include: gpio-enum-name.yaml
+    properties:
+       gpios:
+          type: phandle-array
+          required: true
+       "#gpio-cells":
+          type: int
+          required: false
+          const: 0

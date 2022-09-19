@@ -1,0 +1,2 @@
+config BOARD_PROTECTLI_VP46xx
+	bool "VP46xx"

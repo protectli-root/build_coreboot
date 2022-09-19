@@ -1,0 +1,79 @@
+# 1.6.3
+
+1. Chrome OS build from 13885.22.0.
+   Protocol (params header) version: 6
+
+2. Include changes:
+
+  CL:*3814555 Revert "dramc: mt8192: set max freq 3200 for discrete DDR"
+
+# 1.6.2
+
+1. Chrome OS build from 13885.15.0.
+   Protocol (params header) version: 6
+
+2. Include changes:
+
+  CL:*3785326 dramc: mt8192: fix emi settings count
+  CL:*3787636 dramc: mt8192: Include sdram_info in ddr_base_info
+  CL:*3787637 dramc: mt8192: Update version to 1.6.2
+
+# 1.6.0
+
+1. Chrome OS build from 13869.0.0.
+   Protocol (params header) version: 6
+
+2. Include changes:
+
+  CL:*3674585 dramc: mt8192: Update dramc_param.h for mrc_cache
+  CL:*3655431 dramc: mt8192: improve discrete DRAM stability
+  CL:*3693609 dramc: mt8192: Move memory address to 0x00220000
+  CL:*3678607 dramc: mt8192: fix fast-k gating PI P1 initialization
+  CL:*3704751 dramc: mt8192: Move memory address to 0x00210000
+
+# 1.5.1
+
+1. A local build from 71629f0 (CL:*3639823), incompatible with previous versions.
+   Protocol (params header) version: 5
+
+2. Include changes:
+
+  CL:*3475447 dramc: mt8192: enable per-bank refresh
+  CL:*3531917 dramc: mt8192: Add ddr_type for struct sdram_info
+  CL:*3517916 dramc: mt8192: Add EMI Settings of 8GB normal mode
+  CL:*3568265 dramc: mt8192: Move memory address to 0x00250000 (Depends: CB:50017)
+  CL:*3574468 dramc: mt8192: Add blob version
+  CL:*3596349 dramc: mt8192: set max freq 3200 for discrete DDR
+  CL:*3639823 dramc: mt8192: fix blob version issue
+
+# 2020.12.01
+
+1. A local build and incompatible with previous versions.
+   Header version = 5.
+2. Include changes:
+
+CL:*3438249 dramc: MT8192: Add discrete DDR support
+
+# 2020.11.05
+
+1. A local build and incompatible with previous versions.
+   Header version = 4.
+2. Include changes:
+
+CL:*3398084 dramc: MT8192: add max freq flag
+
+# 2020.09.16
+
+1. Built from Chrome OS 13473.0.2020_09_16_2253.
+2. Include changes:
+
+eed9075 dramc: MT8192: Use clear data rate log format
+c57d520 dramc: MT8192: Adjust vcore voltage to correct value for DDR calibration
+a3651f6 pmic: MT6359: Allow to modify VGPU11 voltage
+bdff3f3 dramc: MT8192: Update the output message for easy debug
+824f1e0 dramc: MT8192: Load correct emi setting by the ddr geometry
+f488694 dramc: MT8192: Save the dramc params result after calibration
+adab87d dramc: MT8192: Update the dramc param struct
+3a1c53e dramc: MT8192: Update the dram control drivers
+a87ece6 dramc: MT8192: Add RX gating fast calibration flow
+c112bf9 dramc: MT8192: Add DRAM full calibration blob source code

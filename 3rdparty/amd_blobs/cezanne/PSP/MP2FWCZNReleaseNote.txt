@@ -1,0 +1,149 @@
++-----------------------------------------+
+| MP2 SFH Firmware Release Notes - CEZANNE
++-----------------------------------------+
++----------------------------------------------------------------------------------------------
+| Version 7.0.0.1
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           12/02/20
+|
+|   * Features enabled
+|       - Process 32 C2P Message Interupt
+|       - Process 6 GPIO Interupt
+|       - P2C Message Register is enabled
+|       - Support S3/S0ix Entry/Exit
+|       - Secondary Accelerometer Uses GPIO271
+|
+|   Jira ID : [PLAT-58706] [CZN] Secondary Accel uses GPIO271
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.0.3
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           12/06/20
+|
+|   * Features enabled
+|       - Add Support for dual sensors using interrupt
+|       - ALS calibration and retrieval of calibration factor
+|
+|     Jira ID : [PLAT-65021] [CZN] Retrieving of calibration factor value after BIOS update
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.0.5
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           17/07/20
+|
+|   * Features enabled
+|       - Add Support for "on-table" detection
+|       - Add new parameters in the config file
+|
+|     Jira ID : [PLAT-66692] [CZN] Add support for "on-table" detection
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.3
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           15/09/20
+|
+|   * Features enabled
+|       - Add Support for "on-table" detection
+|       - Add new parameters in the config file
+|
+|     Jira ID : [PLAT-69915] [CZN] Support Boot with lid close and detect close mode
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.4
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           29/09/20
+|
+|   * Features enabled
+|       - Add Support for "on-table" detection
+|       - Add new parameters in the config file
+|
+|     Jira ID : [PLAT-70227] [CZN_FP6][MP2 SFH] Sometimes sensors does not work after system
+|               reboot or cold boot
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.6
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           23/11/20
+|
+|   * Features enabled
+|       - Add WA to skip sample with BookMode Disabled
+|
+|     Jira ID : [PLAT-73231] [CZN_FP6][MP2 SFH] Screen auto rotated when flip the unit in Clamshell mode.
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.8
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           16/12/20
+|
+|   * Features enabled
+|       - Add support for pre-calibrated gain from Config file
+|       - Add smart Trace buffer support
+|       - Enable Accel along with Op_mode
+|       - Update for Coverity scan fix
+|
+|     Jira ID : [PLAT-46860] [CZN_FP6][MP2 SFH] Enable MP2 Post Code Trace Buffer.
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.A
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           21/01/21
+|
+|   * Features enabled
+|       - Use Sensor timer instead of Controller
+|       - A30S => Send Sci Interrupt
+|       - Reset usLastReportedAngle when device move from book mode to clamshell mode
+|       - MH Use sensor timer
+|
+|     Jira ID : [PLAT-76411] [CZN_FP6][MP2 SFH] Display inTablet mode enter MSC ,Switch display to flat mode and resume see cannot resume.
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.C
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           23/02/21
+|
+|   * Features enabled
+|       -  WA to ignore wrong angles for Dell_watchman
+|
+|     Jira ID : [PLAT-78400] [CZN_FP6][MP2 SFH] [Watchmen AMD]Incorrect Book mode behavior when rotate screen quickly.
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------
+| Version 7.0.6.D
++----------------------------------------------------------------------------------------------
+|   * Date (dd/mm/yy)
+|           19/04/21
+|
+|   * Features enabled
+|       -  WA to ignore wrong angles for Dell_watchman
+|
+|     Jira ID : [PLAT-81197]  [CZN_FP6][MP2 SFH] Moving SUT Tablet -> Tent/Stand -> Clamshell mode and angle is reported wrong.
+|
+|   * Limitation
+|
++----------------------------------------------------------------------------------------------

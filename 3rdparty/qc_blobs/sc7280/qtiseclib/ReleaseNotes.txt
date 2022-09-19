@@ -1,0 +1,23 @@
+=================== Release 00044 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00044
+
+Release Date : Aug 11, 2021
+
+Changes since last version :
+ * XPU and NOC related improvement
+ * Low Power Mode Enablement
+=================== Release 00033 ================================
+Version : 00033
+Release Date : March 30, 2021
+Supported Silicon : SC7280
+Library will be used for TF-A compilation for SC7280.
+binary is passed as QTISECLIB_PATH=<path with filename of qtisec lib> in TF-A compilation
+Changes since last version :
+* Perform SoC SC7280
+* PSCI Initialization
+* Interrupt registrartion and handling
+Errata : Nothing to report
+
