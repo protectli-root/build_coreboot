@@ -1,0 +1,183 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.connectors%b  hw-gfx-gma-connectors.adb  29972944 NE OO PK IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.connectors%s  hw-gfx-gma-connectors.adb  hw-gfx-gma-connectors.ali
+W hw.gfx.gma.connectors.ddi%s  hw-gfx-gma-connectors-ddi.adb  hw-gfx-gma-connectors-ddi.ali
+W hw.gfx.gma.panel%s	hw-gfx-gma-panel.adb	hw-gfx-gma-panel.ali
+
+U hw.gfx.gma.connectors%s  hw-gfx-gma-connectors.ads  ec83b2a0 EE NE OO PK IU
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+
+D gnat.ads		20221227230943 fd2ad2f1 gnat%s
+D g-souinf.ads		20221227230943 7fd67a54 gnat.source_info%s
+D hw.ads		20221227220751 349e873c hw%s
+D hw-config.ads		20221227230941 87823afc hw.config%s
+D hw-debug.ads		20221227220751 1328ccd5 hw.debug%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-framebuffer_filler.ads  20221227220751 0b5937f9 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20221227220751 20234815 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20221227230941 db57cdba hw.gfx.gma.config%s
+D hw-gfx-gma-connectors.ads  20221227220751 cca0fab5 hw.gfx.gma.connectors%s
+D hw-gfx-gma-connectors.adb  20221227220751 1850e8a1 hw.gfx.gma.connectors%b
+D hw-gfx-gma-connectors-ddi.ads  20221227220751 b4426e60 hw.gfx.gma.connectors.ddi%s
+D hw-gfx-gma-panel.ads	20221227220751 fe8c2e0b hw.gfx.gma.panel%s
+D hw-gfx-gma-registers.ads  20221227220751 ef1b811c hw.gfx.gma.registers%s
+D hw-pci.ads		20221227220751 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20221227220751 42e65734 hw.port_io%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s b [post_reset_off hw__gfx__gma__connectors 19 14 none]
+G c Z s b [initialize hw__gfx__gma__connectors 20 14 none]
+G c Z s b [pre_on hw__gfx__gma__connectors 25 14 none]
+G c Z s b [post_on hw__gfx__gma__connectors 31 14 none]
+G c Z s b [pre_off hw__gfx__gma__connectors 38 14 none]
+G c Z s b [post_off hw__gfx__gma__connectors 39 14 none]
+G c Z s b [pre_all_off hw__gfx__gma__connectors 41 14 none]
+G c Z s b [post_all_off hw__gfx__gma__connectors 42 14 none]
+G r c none [post_reset_off hw__gfx__gma__connectors 19 14 none] [post_reset_off hw__gfx__gma__connectors__ddi 36 14 none]
+G r c none [initialize hw__gfx__gma__connectors 20 14 none] [initialize hw__gfx__gma__connectors__ddi 20 14 none]
+G r c none [pre_on hw__gfx__gma__connectors 25 14 none] [pre_on hw__gfx__gma__connectors__ddi 22 14 none]
+G r c none [post_on hw__gfx__gma__connectors 31 14 none] [post_on hw__gfx__gma__connectors__ddi 29 14 none]
+G r c none [post_on hw__gfx__gma__connectors 31 14 none] [backlight_on hw__gfx__gma__panel 49 14 none]
+G r c none [pre_off hw__gfx__gma__connectors 38 14 none] [backlight_off hw__gfx__gma__panel 51 14 none]
+G r c none [pre_off hw__gfx__gma__connectors 38 14 none] [off hw__gfx__gma__panel 45 14 none]
+G r c none [post_off hw__gfx__gma__connectors 39 14 none] [off hw__gfx__gma__connectors__ddi 34 14 none]
+G r c none [pre_all_off hw__gfx__gma__connectors 41 14 none] [backlight_off hw__gfx__gma__panel 51 14 none]
+G r c none [pre_all_off hw__gfx__gma__connectors 41 14 none] [off hw__gfx__gma__panel 45 14 none]
+G r c none [post_all_off hw__gfx__gma__connectors 42 14 none] [last_digital_port hw__gfx__gma__config 314 13 none]
+G r c none [post_all_off hw__gfx__gma__connectors 42 14 none] [off hw__gfx__gma__connectors__ddi 34 14 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 11|20r6 43r37 58r37 75r37 84r37
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 11|20w11 43r42 58r42 75r42 84r42
+68V13*Enclosing_Entity{string} 11|43s54 58s54 75s54 84s54
+X 3 hw.ads
+17K9*HW 91e7 10|15r17 44r5 11|15r6 16r6 17r6 19r6 22r14 109r5
+34M12*Word32{18|68M9} 10|28r28 34r25 11|39r25 54r25
+X 5 hw-debug.ads
+16K12*Debug 41e13 11|19w9 43r21 58r21 75r21 84r21
+19U14*Put_Line 11|43s27 58s27 75s27 84s27
+X 6 hw-gfx.ads
+21K12*GFX 3|17k9 6|217e11 10|15r20 44r8 11|15r9 16r9 17r9 22r17 109r8
+X 8 hw-gfx-gma.ads
+22K16*GMA 6|21k12 8|324e15 10|15r24 44r12 11|15r13 16r13 17r13 22r21 109r12
+101E9*Pipe_Index 101e53 10|26r28 32r25 11|37r25 52r25
+268n22 DIGI_A{268E9} 11|104r38
+270E12 Digital_Port{268E9} 11|44r27 60r27 85r27 104r19
+283E12 Valid_Panels{282E9} 11|95r16
+285R9 Port_Config 295e17 10|27r28 33r25 38r34 39r35 11|38r25 53r25 72r34
+. 81r35
+287e10*Port{268E9} 11|44r19 60r19 85r19 86r28
+290e10*Panel{282E9} 11|63r39 77r37 78r27
+X 9 hw-gfx-gma-config.ads
+15K28*Config 540e22 11|15w17 104r48
+314V13*Last_Digital_Port{8|270E12} 11|104s55
+X 10 hw-gfx-gma-connectors.ads
+15K28*Connectors 8|22k16 10|44l16 44e26 11|17r17 22b25 109l16 109t26
+19U14*Post_Reset_Off 11|24b14 28l8 28t22
+20U14*Initialize 11|30b14 34l8 34t18
+25U14*Pre_On 26>7 27>7 28>7 29<7 11|36b14 49l8 49t14
+26e7 Pipe{8|101E9} 11|37b7
+27r7 Port_Cfg{8|285R9} 11|38b7 44r10 45r22
+28m7 PLL_Hint{3|34M12} 11|39b7 45r32
+29b7 Success{boolean} 11|40b7 45m42 47m10
+31U14*Post_On 32>7 33>7 34>7 35<7 11|51b14 68l8 68t15
+32e7 Pipe{8|101E9} 11|52b7
+33r7 Port_Cfg{8|285R9} 11|53b7 60r10 61r23 63r30
+34m7 PLL_Hint{3|34M12} 11|54b7
+35b7 Success{boolean} 11|55b7 64m10 66m10
+38U14*Pre_Off 38>23 11|72b14 79l8 79t15
+38r23 Port_Cfg{8|285R9} 11|72b23 77r28 78r18
+39U14*Post_Off 39>24 11|81b14 88l8 88t16
+39r24 Port_Cfg{8|285R9} 11|81b24 85r10 86r19
+41U14*Pre_All_Off 11|92b14 99l8 99t19
+42U14*Post_All_Off 11|101b14 107l8 107t20
+X 11 hw-gfx-gma-connectors.adb
+95e11 P{8|283E12} 96r31 97r21
+104e11 Port{8|268E9} 105r19
+X 12 hw-gfx-gma-connectors-ddi.ads
+17K39*DDI 11|17w28 27r7 33r7 45r10 61r10 86r10 105r10 12|42e30
+20U14*Initialize 11|33s11
+22U14*Pre_On 11|45s14
+29U14*Post_On 11|61s14
+34U14*Off 11|86s14 105s14
+36U14*Post_Reset_Off 11|27s11
+X 13 hw-gfx-gma-panel.ads
+18K28*Panel 11|16w17 63r10 77r7 78r7 96r10 97r10 13|57e21
+45U14*Off 11|78s13 97s16
+49U14*Backlight_On 11|63s16
+51U14*Backlight_Off 11|77s13 96s16
+X 18 interfac.ads
+68M9*Unsigned_32
+

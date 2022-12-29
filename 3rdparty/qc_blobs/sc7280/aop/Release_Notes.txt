@@ -1,0 +1,89 @@
+================== Release 379  ================================
+This Release Notes file covers these blobs:
+ * aop.mbn
+ * AOP_AAAAANAZO.elf
+
+Version : 000379
+
+Release Date : January, 2022
+
+Supported Silicon : SC7280
+
+Changes since last version:
+ *ACC LO settings update
+
+aop.mbn is used to generate coreboot image.
+AOP_AAAAANAZO.elf is used for debugging purpose if needed.
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Errata : Nothing to report
+
+================== Release 364  ================================
+This Release Notes file covers these blobs:
+ * aop.mbn
+ * AOP_AAAAANAAO.elf
+
+Version : 000364
+
+Release Date : November, 2021
+
+Supported Silicon : SC7280
+
+Changes since last version:
+ *GFX rail closed loop enablement
+
+aop.mbn is used to generate coreboot image.
+AOP_AAAAANAAO.elf is used for debugging purpose if needed.
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Errata : Nothing to report
+
+================== Release 360  ================================
+This Release Notes file covers these blobs:
+ * aop.mbn
+ * AOP_AAAAANAAO.elf
+
+Version : 000360
+
+Release Date : August, 2021
+
+Supported Silicon : SC7280
+
+Changes since last version:
+ *Voltage plan updates to handle EBI/LPI-CX parent child dependency and voltage margin adjustment.
+ *CPR aging enablement.
+ *BCM QUP scaling factor update.
+
+aop.mbn is used to generate coreboot image.
+AOP_AAAAANAAO.elf is used for debugging purpose if needed.
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Errata : Nothing to report
+
+================== Release 328  ================================
+This Release Notes file covers these blobs:
+ * aop.mbn
+ * AOP_AAAAANAAO.elf
+
+Version : 000328
+
+Release Date : April, 2021
+
+Supported Silicon : SC7280
+
+Changes since last version:
+ *CPR fixes for timeout issue
+
+aop.mbn is used to generate coreboot image.
+AOP_AAAAANAAO.elf is used for debugging purpose if needed.
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Errata : Nothing to report

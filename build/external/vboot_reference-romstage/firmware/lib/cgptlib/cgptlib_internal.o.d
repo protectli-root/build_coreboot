@@ -1,0 +1,30 @@
+/home/coreboot/coreboot/build/external/vboot_reference-romstage/firmware/lib/cgptlib/cgptlib_internal.o: \
+ firmware/lib/cgptlib/cgptlib_internal.c \
+ /home/coreboot/coreboot/src/include/kconfig.h \
+ /home/coreboot/coreboot/build/config.h \
+ /home/coreboot/coreboot/src/include/rules.h \
+ /home/coreboot/coreboot/src/commonlib/bsd/include/commonlib/bsd/compiler.h \
+ firmware/2lib/include/2sysincludes.h \
+ /home/coreboot/coreboot/src/include/ctype.h \
+ /home/coreboot/coreboot/src/include/inttypes.h \
+ /home/coreboot/coreboot/src/include/stdint.h \
+ /home/coreboot/coreboot/src/include/stdbool.h \
+ /home/coreboot/coreboot/src/include/stddef.h \
+ /home/coreboot/coreboot/src/commonlib/include/commonlib/helpers.h \
+ /home/coreboot/coreboot/src/commonlib/bsd/include/commonlib/bsd/helpers.h \
+ /home/coreboot/coreboot/src/commonlib/bsd/include/commonlib/bsd/compiler.h \
+ /home/coreboot/coreboot/src/include/stdio.h \
+ /home/coreboot/coreboot/src/include/stdlib.h \
+ /home/coreboot/coreboot/src/include/string.h \
+ /home/coreboot/coreboot/src/include/stdarg.h \
+ firmware/lib/cgptlib/include/cgptlib.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/gpt_misc.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/gpt.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/vboot_api.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/../2lib/include/2constants.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/../2lib/include/2return_codes.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/../2lib/include/2sysincludes.h \
+ firmware/lib/cgptlib/include/cgptlib_internal.h \
+ firmware/lib/cgptlib/include/cgptlib.h \
+ /home/coreboot/coreboot/3rdparty/vboot/firmware/include/gpt.h \
+ firmware/lib/cgptlib/include/crc32.h

@@ -1,0 +1,145 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.mmio_range%b	hw-mmio_range.adb	94b5b62b NE OO PK GE IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W system%s		system.ads		system.ali
+W system.address_to_access_conversions%s
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+U hw.mmio_range%s	hw-mmio_range.ads	ce9421df BN EE NE OO PK GE IU
+W hw%s			hw.ads			hw.ali
+W system%s		system.ads		system.ali
+
+D gnat.ads		20221227230943 fd2ad2f1 gnat%s
+D g-souinf.ads		20221227230943 7fd67a54 gnat.source_info%s
+D hw.ads		20221227220751 349e873c hw%s
+D hw-debug.ads		20221227220751 1328ccd5 hw.debug%s
+D hw-mmio_range.ads	20221227220751 db989a0e hw.mmio_range%s
+D hw-mmio_range.adb	20221227220751 4226018f hw.mmio_range%b
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D s-atacco.ads		20221227230943 4c36d12f system.address_to_access_conversions%s
+D s-stoele.ads		20221227230943 2dc34a04 system.storage_elements%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s b [mmio_range hw 22 12 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 6|16r6 45r10 60r10
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 6|16w11 45r15 60r15
+68V13*Enclosing_Entity{string} 6|45s27 60s27
+X 3 hw.ads
+17K9*HW 91e7 5|22r9 36r5 6|15r6 20r14 77r5
+34M12*Word32{7|68M9} 6|41r16 46r52 49r10 51r10 57r16 61r53 64r10 66r10
+40M12*Word64{7|71M9} 5|18r16 34r39 6|71r39
+X 4 hw-debug.ads
+16K12*Debug 41e13 6|15w9 44r34 46r34 47r34 48r34 52r34 59r35 61r35 62r35
+. 63r35 67r35
+18U14*Put 6|44s40 47s40 59s41 62s41
+20U14*New_Line 6|52s40 67s41
+24U14*Put_Word32 6|46s40 48s40 61s41 63s41
+X 5 hw-mmio_range.ads
+18m4 Base_Addr{3|40M12} 6|37r63
+19M9 Element_T 21r39 30r32 32r52 6|39r32 51r28 55r52 66r28
+20I9 Index_T 21r27 30r54 32r32 6|39r54 55r32
+21A9 Array_T(19M9)<20I9> 6|33r36 34r68
+22k12*MMIO_Range 3|17k9 5|18z4 19z9 20z9 21z9 36l8 36e18 6|20b17 77l8 77t18
+25@8*State 6|24r7
+26@7*Base_Address 27r19 6|25r7
+30U14*Read 30<20 30>43 6|39b14 53l8 53t12
+30*20 Value{19M9} 6|39b20 43m7 46r60
+30*43 Index{20I9} 6|39b43 43r25 51r18
+32U14*Write 32>21 32>41 6|55b14 69l8 69t13
+32*21 Index{20I9} 6|55b21 66r18 68r16
+32*41 Value{19M9} 6|55b41 61r61 68r26
+34U14*Set_Base_Address 34>32 6|71b14 75l8 75t24
+34m32 Base{3|40M12} 6|71b32 74r52
+X 6 hw-mmio_range.adb
+30b4 Debug_Reads{boolean} 44r21 46r21 47r21 48r21 52r21
+31b4 Debug_Writes{boolean} 59r21 61r21 62r21 63r21 67r21
+33P9 Range_Access(5|21A9) 36r14 37r7 73r18
+34K12 Conv_Range[9|39] 37r21 50r13 50r36 65r13 65r36 74r10
+36p4 Range_A{33P9} 24r16 43r16 50r63 65r63 68r7 73m7
+X 7 interfac.ads
+68M9*Unsigned_32
+71M9*Unsigned_64
+X 8 system.ads
+43K9*System 5|15w6 6|17r6 18r6 34r30 37r44 49r18 64r18 74r33 8|175e11
+73M9*Address 6|37r44 74r33
+X 9 s-atacco.ads
+39k16*Address_To_Access_Conversions 6|18w13 34r37 9|63e41
+47P9 Object_Pointer(5|21A9) 6|50r47[34] 65r47[34]
+57V13*To_Pointer{47P9[6|34]} 6|37s32[34] 74s21[34]
+58V13*To_Address{8|73M9} 6|50s24[34] 65s24[34]
+X 10 s-stoele.ads
+42K16*Storage_Elements 6|17w13 49r25 64r25 10|117e28
+105M9*Integer_Address
+112V13*To_Integer{105M9} 6|49s42 64s42
+

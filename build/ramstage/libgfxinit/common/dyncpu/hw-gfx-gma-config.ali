@@ -1,0 +1,439 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.config%b	hw-gfx-gma-config.adb	e30191a7 NE OO PK IU
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+
+U hw.gfx.gma.config%s	hw-gfx-gma-config.ads	fb7485af EE NE OO PK IU
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+
+D hw.ads		20221227220751 349e873c hw%s
+D hw-config.ads		20221227230941 87823afc hw.config%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-framebuffer_filler.ads  20221227220751 0b5937f9 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20221227220751 20234815 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20221227230941 db57cdba hw.gfx.gma.config%s
+D hw-gfx-gma-config.adb	20221227220751 38565c1d hw.gfx.gma.config%b
+D hw-pci.ads		20221227220751 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20221227220751 42e65734 hw.port_io%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s s [gmch_gm45 hw__gfx__gma__config 146 13 none]
+G c Z s s [cpu_ironlake hw__gfx__gma__config 148 13 none]
+G c Z s s [cpu_sandybridge hw__gfx__gma__config 150 13 none]
+G c Z s s [cpu_ivybridge hw__gfx__gma__config 152 13 none]
+G c Z s s [cpu_haswell hw__gfx__gma__config 154 13 none]
+G c Z s s [cpu_broadwell hw__gfx__gma__config 156 13 none]
+G c Z s s [cpu_skylake hw__gfx__gma__config 158 13 none]
+G c Z s s [cpu_kabylake hw__gfx__gma__config 160 13 none]
+G c Z s s [sandybridge_on hw__gfx__gma__config 163 13 none]
+G c Z s s [ivybridge_on hw__gfx__gma__config 165 13 none]
+G c Z s s [broadwell_on hw__gfx__gma__config 167 13 none]
+G c Z s s [is_ult hw__gfx__gma__config 184 13 none]
+G c Z s s [is_ulx hw__gfx__gma__config 186 13 none]
+G c Z s s [is_lp hw__gfx__gma__config 188 13 none]
+G c Z s s [has_tertiary_pipe hw__gfx__gma__config 192 13 none]
+G c Z s s [pipe_enabled_workaround hw__gfx__gma__config 195 13 none]
+G c Z s s [use_pdw_for_edp_scaling hw__gfx__gma__config 198 13 none]
+G c Z s s [has_pipeconf_misc hw__gfx__gma__config 203 13 none]
+G c Z s s [has_pipeconf_bpc hw__gfx__gma__config 205 13 none]
+G c Z s s [has_pf_pipe_select hw__gfx__gma__config 209 13 none]
+G c Z s s [has_ivybridge_cursors hw__gfx__gma__config 211 13 none]
+G c Z s s [vga_plane_workaround hw__gfx__gma__config 213 13 none]
+G c Z s s [has_pch_dac hw__gfx__gma__config 230 13 none]
+G c Z s s [has_trans_timing_ovrrde hw__gfx__gma__config 237 13 none]
+G c Z s s [has_fdi_composite_sel hw__gfx__gma__config 242 13 none]
+G c Z s s [has_new_fdi_source hw__gfx__gma__config 245 13 none]
+G c Z s s [has_fdi_c hw__gfx__gma__config 248 13 none]
+G c Z s s [has_gmch_mobile_vco hw__gfx__gma__config 255 13 none]
+G c Z s s [has_broadwell_cdclk hw__gfx__gma__config 257 13 none]
+G c Z s s [can_switch_cdclk hw__gfx__gma__config 259 13 none]
+G c Z s s [has_shotplug_ctl_a hw__gfx__gma__config 267 13 none]
+G c Z s s [has_ddi_d hw__gfx__gma__config 272 13 none]
+G c Z s s [has_ddi_e hw__gfx__gma__config 275 13 none]
+G c Z s s [use_kbl_ddi_buf_trans hw__gfx__gma__config 281 13 none]
+G c Z s s [dp_max_2_7_ghz hw__gfx__gma__config 287 13 none]
+G c Z s s [has_ips hw__gfx__gma__config 296 13 none]
+G c Z s s [has_ips_ctl_mailbox hw__gfx__gma__config 299 13 none]
+G c Z s s [has_per_pipe_srd hw__gfx__gma__config 302 13 none]
+G c Z s s [has_64bit_gtt hw__gfx__gma__config 306 13 none]
+G c Z s s [max_pipe hw__gfx__gma__config 311 13 none]
+G c Z s s [last_digital_port hw__gfx__gma__config 314 13 none]
+G c Z s s [is_fdi_port hw__gfx__gma__config 320 13 none]
+G c Z s s [fdi_training hw__gfx__gma__config 332 13 none]
+G c Z s s [ddi_buffer_iboost hw__gfx__gma__config 339 13 none]
+G c Z s s [default_ddi_hdmi_buffer_translation hw__gfx__gma__config 342 13 none]
+G c Z s s [default_cdclk_freq hw__gfx__gma__config 350 13 none]
+G c Z s s [default_rawclk_freq hw__gfx__gma__config 360 13 none]
+G c Z s s [maximum_scalable_width hw__gfx__gma__config 375 13 none]
+G c Z s s [gtt_pte_size hw__gfx__gma__config 408 13 none]
+G c Z s s [fence_base hw__gfx__gma__config 411 13 none]
+G c Z s s [fence_count hw__gfx__gma__config 414 13 none]
+G c Z s s [is_haswell_y hw__gfx__gma__config 432 13 none]
+G c Z s s [is_haswell_u hw__gfx__gma__config 434 13 none]
+G c Z s s [is_haswell hw__gfx__gma__config 438 13 none]
+G c Z s s [is_broadwell_y hw__gfx__gma__config 446 13 none]
+G c Z s s [is_broadwell_u hw__gfx__gma__config 448 13 none]
+G c Z s s [is_broadwell hw__gfx__gma__config 451 13 none]
+G c Z s s [is_skylake_y hw__gfx__gma__config 455 13 none]
+G c Z s s [is_skylake_u hw__gfx__gma__config 457 13 none]
+G c Z s s [is_skylake hw__gfx__gma__config 460 13 none]
+G c Z s s [is_kaby_lake_y hw__gfx__gma__config 465 13 none]
+G c Z s s [is_kaby_lake_y_aml hw__gfx__gma__config 468 13 none]
+G c Z s s [is_kaby_lake_u hw__gfx__gma__config 470 13 none]
+G c Z s s [is_kaby_lake hw__gfx__gma__config 473 13 none]
+G c Z s s [is_coffee_lake_y_aml hw__gfx__gma__config 479 13 none]
+G c Z s s [is_coffee_lake_u hw__gfx__gma__config 482 13 none]
+G c Z s s [is_coffee_lake hw__gfx__gma__config 484 13 none]
+G c Z s s [is_comet_lake_u hw__gfx__gma__config 487 13 none]
+G c Z s s [is_comet_lake hw__gfx__gma__config 491 13 none]
+G c Z s s [is_gpu hw__gfx__gma__config 498 13 none]
+G c Z s s [compatible_gpu hw__gfx__gma__config 533 13 none]
+G c Z s b [detect_cpu hw__gfx__gma__config 538 14 none]
+X 1 hw.ads
+17K9*HW 91e7 6|15r17 419r13 540r5 7|15r14 31r5
+28M12*Word16{11|65M9} 6|419r16 432r39 434r39 438r37 446r41 448r41 451r39
+. 455r39 457r39 460r37 465r41 468r45 470r41 473r39 479r47 482r43 484r41 487r42
+. 491r40 498r33 533r41 538r35 7|18r35
+53I12*Pos32{11|51I9} 6|379r25
+54I12*Pos64{11|54I9}
+X 3 hw-gfx.ads
+21K12*GFX 1|17k9 3|217e11 6|15r20 540r8 7|15r17 31r8
+31I12*Width_Type{1|53I12} 6|373r49
+69I12*Frequency_Type{1|54I12} 6|80r25 82r34 83r34 84r27 84r61 93r24 102r25
+. 111r18 360r40 364r33 366r33 400r36
+71E9*DP_Lane_Count 71e77 6|327r51
+71n44*DP_Lane_Count_2{71E9} 6|329r17 330r60
+71n61*DP_Lane_Count_4{71E9} 6|330r39
+X 5 hw-gfx-gma.ads
+22K16*GMA 3|21k12 5|324e15 6|15r24 106r47 540r12 7|15r21 31r12
+25@7*State 6|106r51
+36E9*Generation 36e65 6|17r19 402r15 404r26
+36n24*G45{36E9} 6|21r15 28r15 44r15 51r15 82r15 134r50 392r15 402r35
+36n29*Ironlake{36E9} 6|22r15 29r15 45r15 52r15 82r22 135r50 140r51 141r51
+. 392r22 403r15
+36n39*Haswell{36E9} 6|23r15 30r15 35r15 46r15 53r15 136r50 142r51 393r15
+. 404r15
+36n48*Broxton{36E9} 6|24r15 31r15 47r15 54r15 137r50 143r51
+36n57*Skylake{36E9} 6|17r33 25r15 32r15 35r25 48r15 55r15 138r50 144r51 393r26
+38E9*CPU_Type 48e16 6|19r25 26r24 37r28 498r47
+39n7*G45{38E9} 6|21r28 501r15
+40n7*GM45{38E9} 6|28r28 147r30 502r15
+41n7*Ironlake{38E9} 6|22r28 149r35 503r15
+42n7*Sandybridge{38E9} 6|151r35 164r37 504r15
+43n7*Ivybridge{38E9} 6|29r28 153r35 166r37 505r15
+44n7*Haswell{38E9} 6|23r28 155r34 506r15
+45n7*Broadwell{38E9} 6|30r28 157r34 168r36 510r15
+46n7*Broxton{38E9} 6|24r28 31r28 514r15
+47n7*Skylake{38E9} 6|25r28 159r34 515r15
+48n7*Kabylake{38E9} 6|32r28 161r34 519r15
+50E9*CPU_Variant 50e42 6|33r28 38r31 498r67
+50n25*Normal{50E9} 6|36r37 38r49 507r39 511r39 516r39 520r39
+50n33*ULT{50E9} 6|185r55 508r39 512r39 517r39 524r39
+50n38*ULX{50E9} 6|35r37 187r55 509r39 513r39 518r39 528r39
+52E9*PCH_Type 58e20 6|42r25 49r24 56r28
+53n7*No_PCH{52E9} 6|44r28 47r28 51r28 54r28 229r63
+54n7*Ibex_Peak{52E9} 6|45r28
+55n7*Cougar_Point{52E9} 6|52r28 170r72 173r37
+56n7*Lynx_Point{52E9} 6|46r28 53r28
+57n7*Sunrise_Point{52E9} 6|48r28
+58n7*Cannon_Point{52E9} 6|55r28 58r35 174r71
+60E9*Port_Type 70e14 6|60r51 88r36 319r32
+61n7*Disabled{60E9} 6|62r18 321r7
+62n7*LVDS{60E9} 6|61r18 323r7
+63n7*eDP{60E9} 6|322r7
+64n7*DP1{60E9} 6|324r7
+69n7*HDMI3{60E9} 6|324r14
+70n7*Analog{60E9} 6|325r7
+101E9*Pipe_Index 101e53 6|311r29 373r34
+101n24*Primary{101E9} 6|377r10 381r10 385r10
+101n33*Secondary{101E9} 6|312r47 378r10 382r10 386r10
+101n44*Tertiary{101E9} 6|312r33 379r10 383r10 387r10
+268E9 GPU_Port 268e72 6|327r38
+268n38 DIGI_C{268E9} 6|315r37
+268n46 DIGI_D{268E9} 6|329r7
+268n54 DIGI_E{268E9} 6|315r25
+270E12 Digital_Port{268E9} 6|314r38
+274E9 PCH_Port 277e36 6|64r31
+275n7 PCH_DAC{274E9} 6|64r43 181r69
+282n37 Panel_1{282E9} 6|61r7
+282n46 Panel_2{282E9} 6|62r7
+283E12 Valid_Panels{282E9} 6|60r34
+297E9 FDI_Training_Type 297e77 6|332r33
+297n31 Simple_Training{297E9} 6|333r36
+297n48 Full_Training{297E9} 6|334r36
+297n63 Auto_Training{297E9} 6|335r36
+305I12 DDI_HDMI_Buf_Trans_Range{integer} 6|342r56
+X 6 hw-gfx-gma-config.ads
+15K28*Config 5|22k16 6|540l16 540e22 7|15b25 23r16 24r16 31l16 31t22
+17e4*Gen{5|36E9} 20r12 27r12 34r12 43r12 50r12 81r12 134r44 135r44 136r44
+. 137r44 138r44 140r44 141r44 142r44 143r44 144r44 391r12 401r12
+19e4*CPU_First{5|38E9} 37r43
+26e4*CPU_Last{5|38E9} 37r56
+33e4*CPU_Var_Last{5|50E9} 38r59
+37E12*Gen_CPU_Type{5|38E9} 94r24 103r25 112r18 7|20r18
+38E12*Gen_CPU_Variant{5|50E9} 95r24 104r25 113r18 7|21r25
+42e4*PCH_First{5|52E9} 56r43
+49e4*PCH_Last{5|52E9} 56r56
+56E12*Gen_PCH_Type{5|52E9} 58r19
+58e4*PCH{56E12} 170r66 173r30 174r64 229r56
+60a4*Panel_Ports(5|60E9)
+64e4*Analog_I2C_Port{5|274E9} 181r50
+66b4*EDP_Low_Voltage_Swing{boolean}
+68i4*DDI_HDMI_Buffer_Translation{integer} 178r50
+70N4*Default_MMIO_Base 179r50
+72N4*LVDS_Dual_Threshold
+74b4*Ignore_Presence_Straps{boolean}
+80i4*CDClk_Min{3|69I12} 84r48
+84I12*CDClk_Range{3|69I12} 91r24 92r24 100r25 101r25 109r18 110r18 350r39
+. 358r51
+88A9*Valid_Port_Array(boolean)<5|60E9> 90r24 108r18
+89R9*Variable_Config 96e14 98r32 106r15
+90a7*Valid_Port{88A9} 99m7 108m52
+91i7*CDClk{84I12} 100m7 109m47
+92i7*Max_CDClk{84I12} 101m7 110m47
+93i7*Raw_Clock{3|69I12} 102m7 111m50
+94e7*Dyn_CPU{37E12} 103m7 112m48
+95e7*Dyn_CPU_Var{38E12} 104m7 113m51
+98r4*Initial_Settings{89R9}
+106r4*Variable{89R9} 108r43 109r38 110r38 111r41 112m39 112r39 113m42 113r42
+108a4*Valid_Port{88A9}
+109i4*CDClk{84I12}
+110i4*Max_CDClk{84I12}
+111i4*Raw_Clock{3|69I12}
+112e4*CPU{37E12} 147r24 149r29 151r29 153r29 155r28 157r28 159r28 161r28
+. 164r30 166r30 168r29 534r26 7|23m23
+113e4*CPU_Var{38E12} 185r45 187r45 534r31 7|24m23
+134b4*Gen_G45{boolean} 147r7 215r56 216r56 217r56 254r56 351r13 361r13 376r10
+135b4*Gen_Ironlake{boolean} 149r7 151r7 153r7 164r8 166r8 170r44 173r8 231r7
+. 233r56 240r56 241r56 323r25 324r25 330r21 362r13 380r13
+136b4*Gen_Haswell{boolean} 155r7 157r7 168r8 185r8 187r8 194r60 231r24 233r72
+. 251r56 264r56 265r56 266r56 268r8 273r8 297r7 354r13 355r13 363r13
+137b4*Gen_Broxton{boolean} 183r60 225r11 226r56 270r56 292r56 356r13 364r13
+138b4*Gen_Skylake{boolean} 159r7 161r7 185r23 187r23 273r23 357r13 365r13
+140b4*Up_To_Ironlake{boolean} 208r56 220r56 221r56 222r56 235r56
+141b4*Ironlake_On{boolean} 223r56 293r56
+142b4*Haswell_On{boolean} 164r53 166r51 173r54 197r56 200r56 201r56 202r56
+. 278r56 288r11
+143b4*Broxton_On{boolean} 168r50 207r56 279r56 345r13
+144b4*Skylake_On{boolean} 174r44 268r39 280r56 291r56
+146V13*GMCH_GM45{boolean} 256s7
+148V13*CPU_Ironlake{boolean} 333s13 352s13
+150V13*CPU_Sandybridge{boolean} 334s13 353s13
+152V13*CPU_Ivybridge{boolean} 210s7 214s7 243s7 249s7 353s32
+154V13*CPU_Haswell{boolean} 199s7 206s11 210s24 288s31 298s9 343s13 380s29
+156V13*CPU_Broadwell{boolean} 196s7 258s7 298s35 300s7 344s13
+158V13*CPU_Skylake{boolean}
+160V13*CPU_Kabylake{boolean} 282s7 340s21
+163V13*Sandybridge_On{boolean} 238s7 412s14
+165V13*Ivybridge_On{boolean} 193s7 212s7 246s7 415s14
+167V13*Broadwell_On{boolean} 204s7 260s7 303s7 307s7
+170b4*PCH_Cougar_Point{boolean} 247r56
+172b4*Cougar_Point_On{boolean} 244r56
+174b4*Cannon_Point_On{boolean} 225r31 226r71 261r56 292r71
+178b4*Have_HDMI_Buf_Override{boolean}
+179b4*Default_MMIO_Base_Set{boolean}
+181b4*Have_DVI_I{boolean}
+183b4*Has_Presence_Straps{boolean}
+184V13*Is_ULT{boolean} 189s7 340s38
+186V13*Is_ULX{boolean} 189s17 288s47 340s10 354s34
+188V13*Is_LP{boolean} 231s49 268s29 273s49 298s25 363s37
+192V13*Has_Tertiary_Pipe{boolean} 312s10
+194b4*Disable_Trickle_Feed{boolean}
+195V13*Pipe_Enabled_Workaround{boolean}
+197b4*Has_EDP_Transcoder{boolean}
+198V13*Use_PDW_For_EDP_Scaling{boolean}
+200b4*Has_Pipe_DDI_Func{boolean}
+201b4*Has_Trans_Clk_Sel{boolean}
+202b4*Has_Pipe_MSA_Misc{boolean}
+203V13*Has_Pipeconf_Misc{boolean}
+205V13*Has_Pipeconf_BPC{boolean}
+207b4*Has_Plane_Control{boolean}
+208b4*Has_DSP_Linoff{boolean}
+209V13*Has_PF_Pipe_Select{boolean}
+211V13*Has_Ivybridge_Cursors{boolean}
+213V13*VGA_Plane_Workaround{boolean}
+215b4*Has_GMCH_DP_Transcoder{boolean}
+216b4*Has_GMCH_VGACNTRL{boolean}
+217b4*Has_GMCH_PFIT_CONTROL{boolean}
+220b4*Has_PP_Write_Protection{boolean}
+221b4*Has_PP_Port_Select{boolean}
+222b4*Use_PP_VDD_Override{boolean}
+223b4*Has_PCH_Panel_Power{boolean}
+224b4*Has_PP_Divisor_Reg{boolean}
+226b4*Has_New_Backlight_Control{boolean}
+229b4*Has_PCH{boolean}
+230V13*Has_PCH_DAC{boolean} 325s25
+233b4*Has_PCH_Aux_Channels{boolean}
+235b4*VGA_Has_Sync_Disable{boolean}
+237V13*Has_Trans_Timing_Ovrrde{boolean}
+240b4*Has_DPLL_SEL{boolean}
+241b4*Has_FDI_BPC{boolean}
+242V13*Has_FDI_Composite_Sel{boolean}
+244b4*Has_New_FDI_Sink{boolean}
+245V13*Has_New_FDI_Source{boolean}
+247b4*Has_Trans_DP_Ctl{boolean}
+248V13*Has_FDI_C{boolean}
+251b4*Has_FDI_RX_Power_Down{boolean}
+254b4*Has_GMCH_RawClk{boolean}
+255V13*Has_GMCH_Mobile_VCO{boolean}
+257V13*Has_Broadwell_CDClk{boolean}
+259V13*Can_Switch_CDClk{boolean}
+261b4*Has_Fractional_RawClk{boolean}
+264b4*End_EDP_Training_Late{boolean}
+265b4*Has_Per_DDI_Clock_Sel{boolean}
+266b4*Has_HOTPLUG_CTL{boolean}
+267V13*Has_SHOTPLUG_CTL_A{boolean}
+270b4*Has_DDI_PHYs{boolean} 278r75
+272V13*Has_DDI_D{boolean} 276s7
+275V13*Has_DDI_E{boolean} 315s10
+278b4*Has_DDI_Buffer_Trans{boolean}
+279b4*Has_Low_Voltage_Swing{boolean}
+280b4*Has_Iboost_Config{boolean}
+281V13*Use_KBL_DDI_Buf_Trans{boolean}
+284b4*Need_DP_Aux_Mutex{boolean}
+287V13*DP_Max_2_7_GHz{boolean}
+291b4*Ungate_GMBUS_Unit_Level{boolean}
+292b4*GMBUS_Alternative_Pins{boolean}
+293b4*Has_PCH_GMBUS{boolean}
+296V13*Has_IPS{boolean}
+299V13*Has_IPS_CTL_Mailbox{boolean}
+302V13*Has_Per_Pipe_SRD{boolean}
+306V13*Has_64bit_GTT{boolean} 409s11
+311V13*Max_Pipe{5|101E9}
+314V13*Last_Digital_Port{5|270E12}
+319A9*FDI_Per_Port(boolean)<5|60E9> 320r32
+320V13*Is_FDI_Port{319A9}
+327A9*FDI_Lanes_Per_Port(3|71E9)<5|268E9> 328r30
+328a4*FDI_Lane_Count{327A9}
+332V13*FDI_Training{5|297E9}
+339V13*DDI_Buffer_Iboost{natural}
+342V13*Default_DDI_HDMI_Buffer_Translation{5|305I12}
+350V13*Default_CDClk_Freq{84I12}
+360V13*Default_RawClk_Freq{3|69I12}
+373A9*Width_Per_Pipe(3|31I12)<5|101E9> 375r43
+375V13*Maximum_Scalable_Width{373A9}
+390N4*Maximum_Cursor_X
+395N4*Maximum_Cursor_Y
+400i4*HDMI_Max_Clock_24bpp{3|69I12}
+408V13*GTT_PTE_Size{natural}
+411V13*Fence_Base{natural}
+414V13*Fence_Count{natural}
+432V13*Is_Haswell_Y{boolean} 432>27 437s11 509s49
+432m27 Device_Id{1|28M12} 433r8
+434V13*Is_Haswell_U{boolean} 434>27 508s49
+434m27 Device_Id{1|28M12} 435r9 436r9 437r25
+438V13*Is_Haswell{boolean} 438>25 507s49
+438m25 Device_Id{1|28M12} 439r8 440r8 441r8 442r8 443r8 444r8
+446V13*Is_Broadwell_Y{boolean} 446>29 513s49
+446m29 Device_Id{1|28M12} 447r8
+448V13*Is_Broadwell_U{boolean} 448>29 512s49
+448m29 Device_Id{1|28M12} 449r8 450r8
+451V13*Is_Broadwell{boolean} 451>27 511s49
+451m27 Device_Id{1|28M12} 452r8 453r8
+455V13*Is_Skylake_Y{boolean} 455>27 518s49
+455m27 Device_Id{1|28M12} 456r8
+457V13*Is_Skylake_U{boolean} 457>27 517s49
+457m27 Device_Id{1|28M12} 458r8 459r8
+460V13*Is_Skylake{boolean} 460>25 516s49
+460m25 Device_Id{1|28M12} 461r8 462r8 463r8
+465V13*Is_Kaby_Lake_Y{boolean} 465>29 529s37
+465m29 Device_Id{1|28M12} 466r8 467r8
+468V13*Is_Kaby_Lake_Y_AML{boolean} 468>33 530s37
+468m33 Device_Id{1|28M12} 469r7 469r31
+470V13*Is_Kaby_Lake_U{boolean} 470>29 525s37
+470m29 Device_Id{1|28M12} 471r8 472r8
+473V13*Is_Kaby_Lake{boolean} 473>27 521s37
+473m27 Device_Id{1|28M12} 474r8 475r8 476r8 477r8
+479V13*Is_Coffee_Lake_Y_AML{boolean} 479>35 531s37
+479m35 Device_Id{1|28M12} 480r7
+482V13*Is_Coffee_Lake_U{boolean} 482>31 526s37
+482m31 Device_Id{1|28M12} 483r8
+484V13*Is_Coffee_Lake{boolean} 484>29 522s37
+484m29 Device_Id{1|28M12} 485r8
+487V13*Is_Comet_Lake_U{boolean} 487>30 527s37
+487m30 Device_Id{1|28M12} 488r8 489r8 490r8
+491V13*Is_Comet_Lake{boolean} 491>28 523s37
+491m28 Device_Id{1|28M12} 492r8 493r8 494r8 495r8 496r8
+498V13*Is_GPU{boolean} 498>21 498>41 498>57 534s7 7|22s16
+498m21 Device_Id{1|28M12} 501r32 502r32 503r32 504r32 505r32 507r61 508r63
+. 509r63 511r63 512r65 513r65 514r32 516r61 517r63 518r63 521r51 522r53 523r52
+. 525r53 526r55 527r54 529r53 530r57 531r59
+498e41 CPU{5|38E9} 500r12
+498e57 CPU_Var{5|50E9} 506r37 510r37 515r37 519r37
+533V13*Compatible_GPU{boolean} 533>29
+533m29 Device_Id{1|28M12} 534r15
+538U14*Detect_CPU 538>26 7|18b14 29l8 29t18
+538m26 Device{1|28M12} 7|18b26 22r24
+X 7 hw-gfx-gma-config.adb
+20e11 CPU{6|37E12} 22r32 23r30
+21e14 CPU_Var{6|38E12} 22r37 24r34
+X 11 interfac.ads
+51I9*Integer_32<integer>
+54I9*Integer_64<long_long_integer>
+65M9*Unsigned_16
+

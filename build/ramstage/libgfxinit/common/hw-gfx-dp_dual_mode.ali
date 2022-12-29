@@ -1,0 +1,200 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.dp_dual_mode%b	hw-gfx-dp_dual_mode.adb	743b7ed2 NE OO PK GE IU
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.dp_defs%s	hw-gfx-dp_defs.ads	hw-gfx-dp_defs.ali
+W hw.gfx.i2c%s		hw-gfx-i2c.ads		hw-gfx-i2c.ali
+W hw.time%s		hw-time.adb		hw-time.ali
+
+U hw.gfx.dp_dual_mode%s	hw-gfx-dp_dual_mode.ads	e8e7bbc5 BN EE NE OO PK GE IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.dp_aux_ch%s	hw-gfx-dp_aux_ch.adb	hw-gfx-dp_aux_ch.ali
+
+D gnat.ads		20221227230943 fd2ad2f1 gnat%s
+D g-souinf.ads		20221227230943 7fd67a54 gnat.source_info%s
+D hw.ads		20221227220751 349e873c hw%s
+D hw-debug.ads		20221227220751 1328ccd5 hw.debug%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20221227220751 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20221227220751 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_dual_mode.ads  20221227220751 68808bc3 hw.gfx.dp_dual_mode%s
+D hw-gfx-dp_dual_mode.adb  20221227220751 3df00b1a hw.gfx.dp_dual_mode%b
+D hw-gfx-i2c.ads	20221227220751 e54ab4f7 hw.gfx.i2c%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s b [dp_dual_mode hw__gfx 23 16 none]
+X 1 gnat.ads
+34K9*GNAT 37e9 9|17r6 41r37 60r37 98r37 203r37
+X 2 g-souinf.ads
+39K14*Source_Info 92e21 9|17w11 41r42 60r42 98r42 203r42
+68V13*Enclosing_Entity{string} 9|41s54 60s54 98s54 203s54
+X 3 hw.ads
+17K9*HW 91e7 8|15r6 23r9 27r5 9|15r6 16r6 19r6 20r6 22r10 24r14 210r5
+21M12*Byte{12|62M9}
+22M12*Word8{21M12} 9|22r13 37r25 56r25 76r42 92r30 96r14 183r21
+89A9*Buffer(21M12)<integer> 9|145r28
+X 4 hw-debug.ads
+16K12*Debug 41e13 9|15w9 41r21 60r21 79r21 81r51 82r51 84r27 85r27 86r27
+. 98r21 103r24 110r24 118r24 127r27 132r27 140r21 203r21
+18U14*Put 9|79s27 84s33
+19U14*Put_Line 9|41s27 60s27 81s57 82s57 86s33 98s27 103s30 110s30 118s30
+. 127s33 132s33 140s27 203s27
+22U14*Put_Word8 9|85s33
+X 5 hw-gfx.ads
+21K12*GFX 3|17k9 5|217e11 8|15r9 23r12 27r8 9|19r9 20r9 24r17 210r8
+X 6 hw-gfx-dp_aux_ch.ads
+20+9 T 8|21r42
+30k16*DP_Aux_Ch 69e21 8|15w13 21r31
+48U14 I2C_Write_Byte 9|62s17[8|21]
+49*7 Port{8|19+9} 9|63r13[8|21]
+50m7 Address{10|17M9} 9|64r13[8|21]
+51m7 Offset{3|22M12} 9|65r13[8|21]
+52m7 Value{3|22M12} 9|66r13[8|21]
+53b7 Success{boolean} 9|67r13[8|21]
+55U14 I2C_Read_Byte 9|43s17[8|21] 188s17[8|21]
+56*7 Port{8|19+9} 9|44r13[8|21] 189r13[8|21]
+57m7 Address{10|17M9} 9|45r13[8|21] 190r13[8|21]
+58m7 Offset{3|22M12} 9|46r13[8|21] 191r13[8|21]
+59m7 Value{3|22M12} 9|47r13[8|21] 192r13[8|21]
+60b7 Success{boolean} 9|48r13[8|21] 193r13[8|21]
+62U14 I2C_Read 9|155s14[8|21]
+63*7 Port{8|19+9} 9|156r10[8|21]
+64m7 Address{10|17M9} 9|157r10[8|21]
+65i7 Length{10|18I12} 9|158r10[8|21]
+66a7 Data{10|20A12} 9|159r10[8|21]
+67b7 Success{boolean} 9|160r10[8|21]
+X 7 hw-gfx-dp_defs.ads
+15K16*DP_Defs 33e19 9|19w13
+X 8 hw-gfx-dp_dual_mode.ads
+19+9 T 21r47 25r39 9|36r25 55r25 90r47 148r21 180r39 199r39
+21K17 Aux_Ch[6|30] 9|43r10 62r10 155r7 188r10
+23k16*DP_Dual_Mode 5|21k12 8|19z9 21z17 27l12 27e24 9|24b21 210l12 210t24
+25U14*Switch_LSPCON 25>29 9|199b14 208l8 208t21
+25*29 Port{19+9} 9|199b29 204r22 206r33
+X 9 hw-gfx-dp_dual_mode.adb
+26N4 DUAL_MODE_I2C_ADDR 45r25 64r25 157r22 190r25
+28N4 DUAL_MODE_ADAPTOR_ID 191r25
+29N4 LSPCON_MODE_CHANGE 65r25
+30N4 LSPCON_CURRENT_MODE 46r25
+32N4 LSPCON_MODE_LS 81r15
+33N4 LSPCON_MODE_PCON 82r15 92r39
+35U14 Read_LSPCON_Mode 35b14 36>7 37<7 38<7 52l8 52t24 100s7 124s10
+36*7 Port{8|19+9} 44r25
+37m7 Mode{3|22M12} 47m25
+38b7 Success{boolean} 48m25 49r20
+42i11 I{integer}
+54U14 Write_LSPCON_Mode 54b14 55>7 56>7 57<7 71l8 71t25 115s7
+55*7 Port{8|19+9} 63r25
+56m7 Mode{3|22M12} 66r25
+57b7 Success{boolean} 67m25 68r20
+61i11 I{integer}
+76U14 Dump_LSPCON_Mode 76b14 76>32 88l8 88t24 107s7 141s7
+76m32 Mode{3|22M12} 80r12 85r44
+90U14 Auto_Configure_LSPCON 90b14 90>37 142l8 142t29 206s10
+90*37 Port{8|19+9} 100r25 115r26 124r28
+92m7 Wanted_Mode{3|22M12} 109r17 115r32 131r20
+93m7 Timeout{11|19M9} 122m7 136r39
+94b7 Timed_Out{boolean} 136m10 137r20
+95b7 Success{boolean} 100m37 102r14 115m45 117r14 124m40 126r17
+96m7 Mode{3|22M12} 100m31 107r25 109r10 124m34 131r13 141r25
+144I12 HDMI_ID_Index{natural} 145r36
+145A12 HDMI_ID_Data{3|89A9}<integer> 149r22 166r21 170r45 173r30 182r21
+147U14 Read_Dual_Mode_HDMI_ID 147b14 148>7 149<7 150<7 168l8 168t30 185s7
+148*7 Port{8|19+9} 156r22
+149a7 HDMI_ID{145A12} 152r39 162r44 164m10 164r29 166m10
+150b7 Success{boolean} 160m22 162m7 162r18 163r10
+152i7 Length{10|18I12} 158m22 158r22 162r35
+153a7 Buffer{10|20A12} 159m22 164r21
+170V13 Is_HDMI_Adaptor{boolean} 170b13 170>30 178l8 178t23 186s35
+170a30 Actual_ID{145A12} 177r28
+173a7 Expected_ID{145A12} 177r14
+180U14 Detect_LSPCON 180b14 180>29 180<42 197l8 197t21 204s7
+180*29 Port{8|19+9} 185r31 189r25
+180b42 Success{boolean} 185m46 186m7 186r18 187r10 193m25 195m10 195r21
+182a7 HDMI_ID{145A12} 185m37 186r52
+183m7 Adaptor_ID{3|22M12} 192m25 195r38
+201b7 Has_LSPCON{boolean} 204m28 205r10
+X 10 hw-gfx-i2c.ads
+15K16*I2C 9|20w13 152r16 153r16 10|22e15
+17M9*Transfer_Address
+18I12*Transfer_Length{natural} 9|152r20
+20A12*Transfer_Data{3|89A9}<integer> 9|153r20
+X 11 hw-time.ads
+15K12*Time 9|16w9 50r10 69r10 93r17 122r18 136r23 11|78e12
+19M9*T<12|71M9> 9|93r22
+33V13*MS_From_Now{19M9} 9|122s23
+54U14*U_Delay 9|50s15 69s15
+67V13*Timed_Out{boolean} 9|136s28
+X 12 interfac.ads
+62M9*Unsigned_8
+71M9*Unsigned_64
+

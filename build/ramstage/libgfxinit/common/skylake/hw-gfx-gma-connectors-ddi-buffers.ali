@@ -1,0 +1,148 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.connectors.ddi.buffers%b  hw-gfx-gma-connectors-ddi-buffers.adb  e7ac758d NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.connectors.ddi%s  hw-gfx-gma-connectors-ddi.adb  hw-gfx-gma-connectors-ddi.ali
+
+U hw.gfx.gma.connectors.ddi.buffers%s  hw-gfx-gma-connectors-ddi-buffers.ads  b084459e EE NE OO PK IU
+W hw.gfx.gma.connectors.ddi%s  hw-gfx-gma-connectors-ddi.adb  hw-gfx-gma-connectors-ddi.ali
+
+D hw.ads		20221227220751 349e873c hw%s
+D hw-config.ads		20221227230941 87823afc hw.config%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-framebuffer_filler.ads  20221227220751 0b5937f9 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20221227220751 20234815 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20221227230941 db57cdba hw.gfx.gma.config%s
+D hw-gfx-gma-connectors.ads  20221227220751 cca0fab5 hw.gfx.gma.connectors%s
+D hw-gfx-gma-connectors-ddi.ads  20221227220751 b4426e60 hw.gfx.gma.connectors.ddi%s
+D hw-gfx-gma-connectors-ddi-buffers.ads  20221227220751 04c62bfe hw.gfx.gma.connectors.ddi.buffers%s
+D hw-gfx-gma-connectors-ddi-buffers.adb  20221227220751 383d93c9 hw.gfx.gma.connectors.ddi.buffers%b
+D hw-gfx-gma-registers.ads  20221227220751 ef1b811c hw.gfx.gma.registers%s
+D hw-pci.ads		20221227220751 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20221227220751 42e65734 hw.port_io%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s b [translations hw__gfx__gma__connectors__ddi__buffers 18 14 none]
+G r c none [translations hw__gfx__gma__connectors__ddi__buffers 18 14 none] [default_ddi_hdmi_buffer_translation hw__gfx__gma__config 342 13 none]
+G r c none [translations hw__gfx__gma__connectors__ddi__buffers 18 14 none] [use_kbl_ddi_buf_trans hw__gfx__gma__config 281 13 none]
+G r c none [translations hw__gfx__gma__connectors__ddi__buffers 18 14 none] [is_ulx hw__gfx__gma__config 186 13 none]
+G r c none [translations hw__gfx__gma__connectors__ddi__buffers 18 14 none] [is_ult hw__gfx__gma__config 184 13 none]
+X 1 hw.ads
+17K9*HW 91e7 9|15r17 20r5 10|15r6 17r14 200r5
+34M12*Word32{15|68M9} 10|23r16 24r16
+X 3 hw-gfx.ads
+21K12*GFX 1|17k9 3|217e11 9|15r20 20r8 10|15r9 17r17 200r8
+X 5 hw-gfx-gma.ads
+22K16*GMA 3|21k12 5|324e15 9|15r24 20r12 10|15r13 17r21 200r12
+268n22 DIGI_A{268E9} 10|169r55
+270E12 Digital_Port{268E9} 9|18r64 10|166r64
+305I12 DDI_HDMI_Buf_Trans_Range{integer} 10|20r34
+X 6 hw-gfx-gma-config.ads
+15K28*Config 540e22 10|15w17 169r10 172r13 173r15 174r15 178r19 179r19 181r20
+. 182r19 183r19 186r19 187r19 190r13
+66b4*EDP_Low_Voltage_Swing{boolean} 10|169r17
+68i4*DDI_HDMI_Buffer_Translation{integer} 10|172r20 173r22
+184V13*Is_ULT{boolean} 10|179s26 183s26 187s26
+186V13*Is_ULX{boolean} 10|178s26 182s26 186s26 190s20
+281V13*Use_KBL_DDI_Buf_Trans{boolean} 10|181s27
+342V13*Default_DDI_HDMI_Buffer_Translation{5|305I12} 10|174s22
+X 7 hw-gfx-gma-connectors.ads
+15K28*Connectors 5|22k16 7|44e26 9|15r28 20r16 10|17r25 200r16
+X 8 hw-gfx-gma-connectors-ddi.ads
+17K39*DDI 7|15k28 8|42e30 9|15r39 20r27 10|17r36 200r27
+40A9 Buf_Trans_Array(1|34M12)<39I9> 9|18r40 10|30r33 42r35 54r35 66r32 78r34
+. 90r34 102r34 114r36 126r36 166r40
+X 9 hw-gfx-gma-connectors-ddi-buffers.ads
+15K43*Buffers 8|17k39 9|20l31 20e38 10|17b40 200l31 200t38
+18U14*Translations 18<28 18>57 10|166b14 198l8 198t20
+18a28 Trans{8|40A9} 10|166b28 176m7 191m13 192m13 194m13 195m13
+18e57 Port{5|270E12} 10|166b57 169r48
+X 10 hw-gfx-gma-connectors-ddi-buffers.adb
+20I12 Skylake_HDMI_Range{5|305I12} 26r40 171r29 172r51
+22R9 HDMI_Buf_Trans 25e14 26r63
+23m7*Trans1{1|34M12} 191r61 194r59
+24m7*Trans2{1|34M12} 192r61 195r59
+26A9 HDMI_Buf_Trans_Array(22R9)<integer> 138r34 151r36
+30a4 Skylake_Trans_EDP{8|40A9} 180r39
+42a4 Skylake_U_Trans_EDP{8|40A9} 179r39
+54a4 Skylake_Y_Trans_EDP{8|40A9} 178r39
+66a4 Skylake_Trans_DP{8|40A9} 184r39
+78a4 Skylake_U_Trans_DP{8|40A9} 183r39
+90a4 Skylake_Y_Trans_DP{8|40A9} 182r39
+102a4 Kaby_Lake_Trans_DP{8|40A9} 188r39
+114a4 Kaby_Lake_U_Trans_DP{8|40A9} 187r39
+126a4 Kaby_Lake_Y_Trans_DP{8|40A9} 186r39
+138a4 Skylake_Trans_HDMI{26A9} 194r27 195r27
+151a4 Skylake_Y_Trans_HDMI{26A9} 191r27 192r27
+168b7 DDIA_Low_Voltage_Swing{boolean} 177r13 189r14
+171i7 HDMI_Trans{20I12} 191r49 192r49 194r47 195r47
+X 15 interfac.ads
+68M9*Unsigned_32
+

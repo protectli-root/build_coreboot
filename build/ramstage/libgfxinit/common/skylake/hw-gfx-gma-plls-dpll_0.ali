@@ -1,0 +1,128 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.plls.dpll_0%b  hw-gfx-gma-plls-dpll_0.adb  9ce95879 NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.plls%s	hw-gfx-gma-plls.adb	hw-gfx-gma-plls.ali
+W hw.gfx.gma.registers%s  hw-gfx-gma-registers.adb  hw-gfx-gma-registers.ali
+
+U hw.gfx.gma.plls.dpll_0%s  hw-gfx-gma-plls-dpll_0.ads  02e5334f EE NE OO PK IU
+W hw.gfx.gma.plls%s	hw-gfx-gma-plls.adb	hw-gfx-gma-plls.ali
+
+D hw.ads		20221227220751 349e873c hw%s
+D hw-config.ads		20221227230941 87823afc hw.config%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-framebuffer_filler.ads  20221227220751 0b5937f9 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20221227220751 20234815 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20221227230941 db57cdba hw.gfx.gma.config%s
+D hw-gfx-gma-plls.ads	20221227220751 e9f6fce8 hw.gfx.gma.plls%s
+D hw-gfx-gma-plls-dpll_0.ads  20221227220751 eb13cfa7 hw.gfx.gma.plls.dpll_0%s
+D hw-gfx-gma-plls-dpll_0.adb  20221227220751 98e116c2 hw.gfx.gma.plls.dpll_0%b
+D hw-gfx-gma-registers.ads  20221227220751 ef1b811c hw.gfx.gma.registers%s
+D hw-pci.ads		20221227220751 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20221227220751 42e65734 hw.port_io%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s b [check_link_rate hw__gfx__gma__plls__dpll_0 19 14 none]
+G r c none [check_link_rate hw__gfx__gma__plls__dpll_0 19 14 none] [read hw__gfx__gma__registers 1695 14 none]
+X 1 hw.ads
+17K9*HW 91e7 8|15r17 23r5 9|15r6 17r14 49r5
+34M12*Word32{14|68M9} 8|17r30 9|32r20
+X 3 hw-gfx.ads
+21K12*GFX 1|17k9 3|217e11 8|15r20 23r8 9|15r9 17r17 49r8
+78E9*DP_Bandwidth 78e80 8|20r28 9|29r28
+78n26*DP_Bandwidth_1_62{78E9} 9|42r36
+78n45*DP_Bandwidth_2_7{78E9} 9|40r36
+78n63*DP_Bandwidth_5_4{78E9} 9|38r36
+X 5 hw-gfx-gma.ads
+22K16*GMA 3|21k12 5|324e15 8|15r24 23r12 9|15r13 17r21 49r12
+X 7 hw-gfx-gma-plls.ads
+15K28*PLLs 5|22k16 7|43e20 8|15r28 23r16 9|17r25 49r16
+X 8 hw-gfx-gma-plls-dpll_0.ads
+15K33*DPLL_0 7|15k28 8|23l21 23e27 9|17b30 49l21 49t27
+17m4*Register_Value{1|34M12}
+19U14*Check_Link_Rate 20>7 21<7 9|28b14 47l8 47t23
+20e7 Link_Rate{3|78E9} 9|29b7 38r24 40r24 42r24
+21b7 Success{boolean} 9|30b7 38m13 40m13 42m13 44m13 46m7 46r18
+X 9 hw-gfx-gma-plls-dpll_0.adb
+19N4 DPLL_CTRL1_DPLL0_LINK_RATE_MASK 36r27
+20N4 DPLL_CTRL1_DPLL0_LINK_RATE_2700MHZ 37r15
+21N4 DPLL_CTRL1_DPLL0_LINK_RATE_1350MHZ 39r15
+22N4 DPLL_CTRL1_DPLL0_LINK_RATE_810MHZ 41r15
+23N4 DPLL_CTRL1_DPLL0_LINK_RATE_1620MHZ
+24N4 DPLL_CTRL1_DPLL0_LINK_RATE_1080MHZ
+25N4 DPLL_CTRL1_DPLL0_LINK_RATE_2160MHZ
+26N4 DPLL_CTRL1_DPLL0_OVERRIDE 46r46
+32m7 DPLL_Ctrl1{1|34M12} 34m45 36r12 46r31
+X 10 hw-gfx-gma-registers.ads
+19K28*Registers 9|15w17 34r7 34r23 10|1827e25
+400n7*DPLL_CTRL1{36E9} 9|34r33
+1695U14*Read 9|34s17
+X 14 interfac.ads
+68M9*Unsigned_32
+

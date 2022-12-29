@@ -1,0 +1,688 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.connectors.ddi%b  hw-gfx-gma-connectors-ddi.adb  6ec2d167 NE OO PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.source_info%s	g-souinf.ads		g-souinf.ali
+W hw%s			hw.ads			hw.ali
+W hw.debug%s		hw-debug.adb		hw-debug.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+Z hw.gfx.dp_aux_ch%s	hw-gfx-dp_aux_ch.adb	hw-gfx-dp_aux_ch.ali
+Z hw.gfx.dp_defs%s	hw-gfx-dp_defs.ads	hw-gfx-dp_defs.ali
+Z hw.gfx.dp_info%s	hw-gfx-dp_info.adb	hw-gfx-dp_info.ali
+W hw.gfx.dp_training%s	hw-gfx-dp_training.adb	hw-gfx-dp_training.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.config%s	hw-gfx-gma-config.adb	hw-gfx-gma-config.ali
+W hw.gfx.gma.connectors%s  hw-gfx-gma-connectors.adb  hw-gfx-gma-connectors.ali
+W hw.gfx.gma.connectors.ddi%s  hw-gfx-gma-connectors-ddi.adb  hw-gfx-gma-connectors-ddi.ali
+W hw.gfx.gma.connectors.ddi.buffers%s  hw-gfx-gma-connectors-ddi-buffers.adb  hw-gfx-gma-connectors-ddi-buffers.ali
+W hw.gfx.gma.ddi_phy%s	hw-gfx-gma-ddi_phy.ads	hw-gfx-gma-ddi_phy.ali
+W hw.gfx.gma.dp_aux_ch%s  hw-gfx-gma-dp_aux_ch.ads  hw-gfx-gma-dp_aux_ch.ali
+W hw.gfx.gma.dp_info%s	hw-gfx-gma-dp_info.ads	hw-gfx-gma-dp_info.ali
+W hw.gfx.gma.pch%s	hw-gfx-gma-pch.ads	hw-gfx-gma-pch.ali
+W hw.gfx.gma.pch.fdi%s	hw-gfx-gma-pch-fdi.adb	hw-gfx-gma-pch-fdi.ali
+W hw.gfx.gma.pch.transcoder%s  hw-gfx-gma-pch-transcoder.adb  hw-gfx-gma-pch-transcoder.ali
+W hw.gfx.gma.pch.vga%s	hw-gfx-gma-pch-vga.adb	hw-gfx-gma-pch-vga.ali
+W hw.gfx.gma.spll%s	hw-gfx-gma-spll.ads	hw-gfx-gma-spll.ali
+Z hw.gfx.i2c%s		hw-gfx-i2c.ads		hw-gfx-i2c.ali
+W hw.time%s		hw-time.adb		hw-time.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U hw.gfx.gma.connectors.ddi%s  hw-gfx-gma-connectors-ddi.ads  97f915c9 EE NE OO PK IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.connectors%s  hw-gfx-gma-connectors.adb  hw-gfx-gma-connectors.ali
+W hw.gfx.gma.registers%s  hw-gfx-gma-registers.adb  hw-gfx-gma-registers.ali
+
+D ada.ads		20221227230943 3ffc8e18 ada%s
+D a-unccon.ads		20221227230943 f9eb8f06 ada.unchecked_conversion%s
+D gnat.ads		20221227230943 fd2ad2f1 gnat%s
+D g-souinf.ads		20221227230943 7fd67a54 gnat.source_info%s
+D hw.ads		20221227220751 349e873c hw%s
+D hw-config.ads		20221227230941 87823afc hw.config%s
+D hw-debug.ads		20221227220751 1328ccd5 hw.debug%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20221227220751 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20221227220751 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_info.ads	20221227220751 445951f5 hw.gfx.dp_info%s
+D hw-gfx-dp_training.ads  20221227220751 c086c1de hw.gfx.dp_training%s
+D hw-gfx-dp_training.adb  20221227220751 78c2d18b hw.gfx.dp_training%b
+D hw-gfx-framebuffer_filler.ads  20221227220751 0b5937f9 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20221227220751 20234815 hw.gfx.gma%s
+D hw-gfx-gma-config.ads	20221227230941 db57cdba hw.gfx.gma.config%s
+D hw-gfx-gma-connectors.ads  20221227220751 cca0fab5 hw.gfx.gma.connectors%s
+D hw-gfx-gma-connectors-ddi.ads  20221227220751 b4426e60 hw.gfx.gma.connectors.ddi%s
+D hw-gfx-gma-connectors-ddi.adb  20221227220751 23b6b217 hw.gfx.gma.connectors.ddi%b
+D hw-gfx-gma-connectors-ddi-buffers.ads  20221227220751 04c62bfe hw.gfx.gma.connectors.ddi.buffers%s
+D hw-gfx-gma-ddi_phy.ads  20221227220751 f1dd1f0a hw.gfx.gma.ddi_phy%s
+D hw-gfx-gma-ddi_phy_stub.ads  20221227220751 45c0c3f0 hw.gfx.gma.ddi_phy_stub%s
+D hw-gfx-gma-dp_aux_ch.ads  20221227220751 53944791 hw.gfx.gma.dp_aux_ch%s
+D hw-gfx-gma-dp_aux_request.ads  20221227220751 d673ea1e hw.gfx.gma.dp_aux_request%s
+D hw-gfx-gma-dp_info.ads  20221227220751 38def494 hw.gfx.gma.dp_info%s
+D hw-gfx-gma-pch.ads	20221227220751 e6dc1f0f hw.gfx.gma.pch%s
+D hw-gfx-gma-pch-fdi.ads  20221227220751 7c10b55d hw.gfx.gma.pch.fdi%s
+D hw-gfx-gma-pch-transcoder.ads  20221227220751 2ecf5a4e hw.gfx.gma.pch.transcoder%s
+D hw-gfx-gma-pch-vga.ads  20221227220751 833de2d2 hw.gfx.gma.pch.vga%s
+D hw-gfx-gma-registers.ads  20221227220751 ef1b811c hw.gfx.gma.registers%s
+D hw-gfx-gma-spll.ads	20221227220751 59a2f865 hw.gfx.gma.spll%s
+D hw-gfx-i2c.ads	20221227220751 e54ab4f7 hw.gfx.i2c%s
+D hw-pci.ads		20221227220751 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20221227220751 42e65734 hw.port_io%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D s-unstyp.ads		20221227230943 9d58a4c0 system.unsigned_types%s
+D gnat.adc		20221227220753 00000000
+G a e
+G c Z s b [initialize hw__gfx__gma__connectors__ddi 20 14 none]
+G c Z s b [pre_on hw__gfx__gma__connectors__ddi 22 14 none]
+G c Z s b [post_on hw__gfx__gma__connectors__ddi 29 14 none]
+G c Z s b [off hw__gfx__gma__connectors__ddi 34 14 none]
+G c Z s b [post_reset_off hw__gfx__gma__connectors__ddi 36 14 none]
+G c Z b b [ddi_buf_ctl_trans_select hw__gfx__gma__connectors__ddi 44 13 none]
+G c Z b b [max_v_swing hw__gfx__gma__connectors__ddi 347 13 none]
+G c Z b b [max_pre_emph hw__gfx__gma__connectors__ddi 365 13 none]
+G c Z b b [set_tp_ctl hw__gfx__gma__connectors__ddi 385 14 none]
+G c Z b b [set_training_pattern hw__gfx__gma__connectors__ddi 403 14 none]
+G c Z b b [set_signal_levels hw__gfx__gma__connectors__ddi 433 14 none]
+G c Z b b [digital_off hw__gfx__gma__connectors__ddi 500 14 none]
+G c Z b b [train_fdi hw__gfx__gma__connectors__ddi 540 14 none]
+G r c none [initialize hw__gfx__gma__connectors__ddi 20 14 none] [ddi_buffer_iboost hw__gfx__gma__config 339 13 none]
+G r c none [initialize hw__gfx__gma__connectors__ddi 20 14 none] [last_digital_port hw__gfx__gma__config 314 13 none]
+G r c none [initialize hw__gfx__gma__connectors__ddi 20 14 none] [translations hw__gfx__gma__connectors__ddi__buffers 18 14 none]
+G r c none [initialize hw__gfx__gma__connectors__ddi 20 14 none] [write hw__gfx__gma__registers 1707 14 none]
+G r c none [initialize hw__gfx__gma__connectors__ddi 20 14 none] [unset_and_set_mask hw__gfx__gma__registers 1770 14 none]
+G r i none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [dp_training hw__gfx 50 16 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [unset_and_set_mask hw__gfx__gma__registers 1770 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [write hw__gfx__gma__registers 1707 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [wait_set_mask hw__gfx__gma__registers 1743 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [is_set_mask hw__gfx__gma__registers 1716 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [posting_read hw__gfx__gma__registers 1685 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [u_delay hw__time 54 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [aux_write hw__gfx__gma__dp_aux_ch 39 14 19_9]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [read_link_status hw__gfx__gma__dp_info 120 14 19_9]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [all_cr_done hw__gfx__gma__dp_info 125 13 19_9]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [all_eq_done hw__gfx__gma__dp_info 130 13 19_9]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [max_requested_vs hw__gfx__gma__dp_info 135 13 19_9]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [max_requested_emph hw__gfx__gma__dp_info 140 13 19_9]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [unset_mask hw__gfx__gma__registers 1766 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [set_mask hw__gfx__gma__registers 1762 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [pre_train hw__gfx__gma__pch__fdi 19 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [on hw__gfx__gma__spll 20 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [auto_train hw__gfx__gma__pch__fdi 24 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [off hw__gfx__gma__pch__fdi 28 14 none]
+G r c none [pre_on hw__gfx__gma__connectors__ddi 22 14 none] [off hw__gfx__gma__spll 22 14 none]
+G r c none [post_on hw__gfx__gma__connectors__ddi 29 14 none] [unset_and_set_mask hw__gfx__gma__registers 1770 14 none]
+G r c none [post_on hw__gfx__gma__connectors__ddi 29 14 none] [u_delay hw__time 54 14 none]
+G r c none [post_on hw__gfx__gma__connectors__ddi 29 14 none] [clock_on hw__gfx__gma__pch__vga 23 14 none]
+G r c none [post_on hw__gfx__gma__connectors__ddi 29 14 none] [on hw__gfx__gma__pch__transcoder 17 14 none]
+G r c none [post_on hw__gfx__gma__connectors__ddi 29 14 none] [on hw__gfx__gma__pch__vga 17 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [has_pch_dac hw__gfx__gma__config 230 13 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [off hw__gfx__gma__pch__vga 21 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [off hw__gfx__gma__pch__transcoder 22 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [off hw__gfx__gma__pch__fdi 28 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [is_set_mask hw__gfx__gma__registers 1716 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [unset_mask hw__gfx__gma__registers 1766 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [wait_set_mask hw__gfx__gma__registers 1743 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [set_mask hw__gfx__gma__registers 1762 14 none]
+G r c none [off hw__gfx__gma__connectors__ddi 34 14 none] [off hw__gfx__gma__spll 22 14 none]
+G r c none [post_reset_off hw__gfx__gma__connectors__ddi 36 14 none] [set_mask hw__gfx__gma__registers 1762 14 none]
+G r c none [set_tp_ctl hw__gfx__gma__connectors__ddi 385 14 none] [write hw__gfx__gma__registers 1707 14 none]
+G r c none [set_training_pattern hw__gfx__gma__connectors__ddi 403 14 none] [write hw__gfx__gma__registers 1707 14 none]
+G r c none [set_training_pattern hw__gfx__gma__connectors__ddi 403 14 none] [wait_set_mask hw__gfx__gma__registers 1743 14 none]
+G r c none [set_signal_levels hw__gfx__gma__connectors__ddi 433 14 none] [is_set_mask hw__gfx__gma__registers 1716 14 none]
+G r c none [set_signal_levels hw__gfx__gma__connectors__ddi 433 14 none] [unset_and_set_mask hw__gfx__gma__registers 1770 14 none]
+G r c none [set_signal_levels hw__gfx__gma__connectors__ddi 433 14 none] [posting_read hw__gfx__gma__registers 1685 14 none]
+G r c none [set_signal_levels hw__gfx__gma__connectors__ddi 433 14 none] [u_delay hw__time 54 14 none]
+G r c none [digital_off hw__gfx__gma__connectors__ddi 500 14 none] [is_set_mask hw__gfx__gma__registers 1716 14 none]
+G r c none [digital_off hw__gfx__gma__connectors__ddi 500 14 none] [unset_mask hw__gfx__gma__registers 1766 14 none]
+G r c none [digital_off hw__gfx__gma__connectors__ddi 500 14 none] [wait_set_mask hw__gfx__gma__registers 1743 14 none]
+G r c none [digital_off hw__gfx__gma__connectors__ddi 500 14 none] [set_mask hw__gfx__gma__registers 1762 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [pre_train hw__gfx__gma__pch__fdi 19 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [on hw__gfx__gma__spll 20 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [write hw__gfx__gma__registers 1707 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [unset_and_set_mask hw__gfx__gma__registers 1770 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [posting_read hw__gfx__gma__registers 1685 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [u_delay hw__time 54 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [auto_train hw__gfx__gma__pch__fdi 24 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [is_set_mask hw__gfx__gma__registers 1716 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [unset_mask hw__gfx__gma__registers 1766 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [wait_set_mask hw__gfx__gma__registers 1743 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [off hw__gfx__gma__pch__fdi 28 14 none]
+G r c none [train_fdi hw__gfx__gma__connectors__ddi 540 14 none] [off hw__gfx__gma__spll 22 14 none]
+X 3 gnat.ads
+34K9*GNAT 37e9 19|28r6 504r37 649r37 700r37 735r37
+X 4 g-souinf.ads
+39K14*Source_Info 92e21 19|28w11 504r42 649r42 700r42 735r42
+68V13*Enclosing_Entity{string} 19|504s54 649s54 700s54 735s54
+X 5 hw.ads
+17K9*HW 91e7 18|15r6 17r17 42r5 19|15r6 16r6 17r6 18r6 19r6 20r6 21r6 22r6
+. 23r6 24r6 25r6 27r6 30r14 48r44 51r7 52r7 53r7 91r40 94r7 95r7 96r7 768r5
+34M12*Word32{36|68M9} 18|24r25 40r55 19|46r14 48r69 71r43 91r64 257r43 291r14
+. 294r14 301r31 301r41 390r34 622r25 758r20
+35V13*Shift_Left=36:26{36|68M9} 19|337s16 338s16 339s16 340s16 341s16 664s31
+X 7 hw-debug.ads
+16K12*Debug 41e13 19|27w9 504r21 649r21 700r21 735r21
+19U14*Put_Line 19|504s27 649s27 700s27 735s27
+X 8 hw-gfx.ads
+21K12*GFX 5|17k9 8|217e11 18|15r9 17r20 42r8 19|16r9 17r9 18r9 19r9 20r9
+. 21r9 22r9 23r9 24r9 25r9 30r17 48r47 51r10 52r10 53r10 91r43 94r10 95r10
+. 96r10 768r8
+71E9*DP_Lane_Count 71e77 19|48r51
+71n27*DP_Lane_Count_1{71E9} 19|51r14
+71n44*DP_Lane_Count_2{71E9} 19|52r14
+71n61*DP_Lane_Count_4{71E9} 19|53r14
+78E9*DP_Bandwidth 78e80 19|91r47
+78n26*DP_Bandwidth_1_62{78E9} 19|94r14
+78n45*DP_Bandwidth_2_7{78E9} 19|95r14
+78n63*DP_Bandwidth_5_4{78E9} 19|96r14
+99R9*DP_Link 106e17 19|387r18 405r18 435r21
+102e10*Lane_Count{71E9} 19|486r54 570r65
+104b10*Enhanced_Framing{boolean} 19|392r15
+121n38*DP{121E9} 19|671r32
+121n42*HDMI{121E9} 19|677r32 712r15
+121n48*VGA{121E9} 19|651r29 719r15
+X 11 hw-gfx-dp_info.ads
+25E9 DP_Voltage_Swing 19|349r22[25|19]
+25n30*VS_Level_0{25E9[25|19]} 19|376r29[25|19] 450r26[25|19]
+25n42*VS_Level_1{25E9[25|19]} 19|377r29[25|19] 457r26[25|19]
+25n54*VS_Level_2{25E9[25|19]} 19|360r21[25|19] 378r29[25|19] 464r26[25|19]
+25n66*VS_Level_3{25E9[25|19]} 19|358r21[25|19] 470r26[25|19]
+27E9 DP_Pre_Emph 19|368r22[25|19]
+27n25*Emph_Level_0{27E9[25|19]} 19|379r51[25|19] 452r32[25|19] 459r32[25|19]
+. 466r32[25|19] 472r32[25|19]
+27n39*Emph_Level_1{27E9[25|19]} 19|378r51[25|19] 453r32[25|19] 460r32[25|19]
+. 467r32[25|19]
+27n53*Emph_Level_2{27E9[25|19]} 19|377r51[25|19] 454r32[25|19] 461r32[25|19]
+27n67*Emph_Level_3{27E9[25|19]} 19|376r51[25|19] 455r32[25|19]
+29R9*Train_Set 19|367r29[25|19] 436r29[25|19]
+30e7*Voltage_Swing{25E9[25|19]} 19|373r45[25|19] 375r28[25|19] 449r25[25|19]
+31e7*Pre_Emph{27E9[25|19]} 19|451r31[25|19] 458r31[25|19] 465r31[25|19] 471r31[25|19]
+34E9*Training_Pattern 19|71r22[25|19] 388r26[25|19] 406r26[25|19] 408r24[25|19]
+34n30*TP_1{34E9[25|19]} 19|74r15[25|19]
+34n36*TP_2{34E9[25|19]} 19|75r15[25|19]
+34n42*TP_3{34E9[25|19]} 19|76r15[25|19]
+34n48*TP_Idle{34E9[25|19]} 19|77r15[25|19] 410r28[25|19] 414r42[25|19]
+34n57*TP_None{34E9[25|19]} 19|78r15[25|19] 428r45[25|19]
+X 12 hw-gfx-dp_training.ads
+20b4 TPS3_Supported{boolean} 19|637r10
+22+9 T 19|638r10
+23+9 Aux_T 19|639r10
+25K17 Aux_Ch 19|640r10
+27K17 DP_Info 19|641r10
+29V18 To_Aux{23+9} 19|642r10
+31V18 Max_V_Swing{11|25E9[27]} 19|643r10
+33V18 Max_Pre_Emph{11|27E9[27]} 19|644r10
+38U19 Set_Pattern 19|645r10
+43U19 Set_Signal_Levels 19|646r10
+48U19 Off 19|647r10
+50k16*DP_Training 58e23 19|16w13 636r31
+53U14 Train_DP 19|672s22[636]
+54e7 Port{15|268E9} 19|673r16[636]
+55r7 Link{8|99R9} 19|674r16[636]
+56b7 Success{boolean} 19|675r16[636]
+X 15 hw-gfx-gma.ads
+22K16*GMA 8|21k12 15|324e15 18|15r13 17r24 42r12 19|17r13 18r13 19r13 20r13
+. 21r13 22r13 23r13 24r13 25r13 30r21 768r12
+70n7*Analog{60E9} 19|321r36
+268n22 DIGI_A{268E9} 19|124r7 261r7 268r7 274r7 281r7 317r44 356r29 417r58
+. 423r24 630r21 702r26 705r41
+268n30 DIGI_B{268E9} 19|150r7 262r7 269r7 275r7 282r7 631r21
+268n38 DIGI_C{268E9} 19|176r7 263r7 270r7 276r7 283r7 632r21
+268n46 DIGI_D{268E9} 19|202r7 264r7 271r7 277r7 284r7 633r21
+268n54 DIGI_E{268E9} 19|228r7 265r7 272r7 278r7 285r7 322r45 550r32 557r35
+. 564r38 571r44 576r35 582r35 584r44 587r38 591r44 594r35 603r35 610r35 737r45
+. 746r17
+270E12 Digital_Port{268E9} 18|34r26 19|121r39 257r26 258r26 305r59 317r25
+. 348r14 366r21 386r18 404r18 434r21 500r34 625r30 638r31 732r26 761r22
+285R9 Port_Config 295e17 18|23r25 29r34 19|541r25 621r25 697r34
+287e10*Port{268E9} 19|657r50 662r67 663r69 666r73 668r73 673r40 678r22 686r57
+. 702r19 714r50
+289e10*Display{8|121E9} 19|651r19 671r22 677r22 711r21
+291r10*Mode{8|124R9} 19|720r40 724r33
+293r10*FDI{8|99R9} 19|570r61
+294r10*DP{8|99R9} 19|674r40
+301E9 DP_Port 301e44 19|625r51 634r31 639r31
+301n21 DP_A{301E9} 19|630r31
+301n27 DP_B{301E9} 19|631r31
+301n33 DP_C{301E9} 19|632r31
+301n39 DP_D{301E9} 19|633r31
+305I12 DDI_HDMI_Buf_Trans_Range{integer}
+X 16 hw-gfx-gma-config.ads
+15K28*Config 540e22 19|17w17 301r49 303r10 317r54 321r16 327r10 353r13 355r17
+. 355r50 372r13 417r13 446r10 493r10 527r10 531r17 655r13 659r20 676r16 682r22
+. 683r24 684r24 703r13 737r10 748r13 760r14 760r51
+66b4*EDP_Low_Voltage_Swing{boolean} 19|355r57
+68i4*DDI_HDMI_Buffer_Translation{integer} 19|683r31
+178b4*Have_HDMI_Buf_Override{boolean} 19|682r29
+230V13*Has_PCH_DAC{boolean} 19|737s17 748s20
+264b4*End_EDP_Training_Late{boolean} 19|417r20 703r20
+265b4*Has_Per_DDI_Clock_Sel{boolean} 19|527r17 655r20 760r21
+270b4*Has_DDI_PHYs{boolean} 19|353r20 372r20 446r17 493r17 531r24 659r27
+. 676r23 760r58
+278b4*Has_DDI_Buffer_Trans{boolean} 19|303r17
+279b4*Has_Low_Voltage_Swing{boolean} 19|355r24
+280b4*Has_Iboost_Config{boolean} 19|327r17
+314V13*Last_Digital_Port{15|270E12} 19|317s61
+319A9*FDI_Per_Port(boolean)<15|60E9>
+320V13*Is_FDI_Port{319A9} 19|321s23
+339V13*DDI_Buffer_Iboost{natural} 19|301s56
+342V13*Default_DDI_HDMI_Buffer_Translation{15|305I12} 19|684s31
+X 17 hw-gfx-gma-connectors.ads
+15K28*Connectors 15|22k16 17|44e26 18|17r28 42r16 19|25r17 30r25 768r16
+X 18 hw-gfx-gma-connectors-ddi.ads
+17K39*DDI 17|15k28 18|39E9 42l27 42e30 19|25r28 30b36 768l27 768t30
+20U14*Initialize 19|299b14 343l8 343t18
+22U14*Pre_On 23>7 24>7 25<7 19|620b14 693l8 693t14
+23r7 Port_Cfg{15|285R9} 19|621b7 651r10 652r21 657r41 662r58 663r60 666r64
+. 668r64 671r13 673r31 674r31 677r13 678r13 686r48
+24m7 PLL_Hint{5|34M12} 19|622b7 658r31 665r34
+25b7 Success{boolean} 19|623b7 652m31 675m31 687m16 690m13
+29U14*Post_On 29>23 19|697b14 728l8 728t15
+29r23 Port_Cfg{15|285R9} 19|697b23 702r10 711r12 714r41 720r31 721r32 724r24
+34U14*Off 34>19 19|732b14 752l8 752t11
+34e19 Port{15|270E12} 19|732b19 737r38 744r20 746r10
+36U14*Post_Reset_Off 19|756b14 766l8 766t22
+39I9 Buf_Trans_Range<short_short_integer> 40r35 19|111r17 310r25
+40A9 Buf_Trans_Array(5|34M12)<39I9> 19|307r38
+X 19 hw-gfx-gma-connectors-ddi.adb
+32N4 DDI_BUF_CTL_BUFFER_ENABLE 443r22 484r25 508r22 514r25 568r28 583r25
+. 717r31
+33N4 DDI_BUF_CTL_TRANS_SELECT_MASK 481r25 565r28 715r31
+34N4 DDI_BUF_CTL_PORT_REVERSAL 482r25 566r28 716r31
+35N4 DDI_BUF_CTL_IDLE_STATUS 524r25 595r25
+36N4 DDI_BUF_CTL_DDI_A_LANE_CAP
+37N4 DDI_BUF_CTL_PORT_WIDTH_MASK 483r25 567r28
+38N4 DDI_BUF_CTL_PORT_WIDTH_1_LANE 51r33
+39N4 DDI_BUF_CTL_PORT_WIDTH_2_LANES 52r33
+40N4 DDI_BUF_CTL_PORT_WIDTH_4_LANES 53r33
+41N4 DDI_BUF_CTL_INIT_DISPLAY_DETECT
+43I12 DDI_BUF_CTL_TRANS_SELECT_T{natural} 45r13 290r13 439r22 554r40
+44V13 DDI_BUF_CTL_TRANS_SELECT{5|34M12} 45>7 289b13 295l8 295t32 485s25 569s28
+45i7 Sel{43I12} 290b7 294r22
+48A9 DDI_BUF_CTL_PORT_WIDTH_T(5|34M12)<8|71E9> 49r38 50r7
+49a4 DDI_BUF_CTL_PORT_WIDTH{48A9} 486r25 570r28
+55N4 DP_TP_CTL_TRANSPORT_ENABLE 398r22 519r22 558r25 588r28 604r25
+56N4 DP_TP_CTL_MODE_SST
+57N4 DP_TP_CTL_MODE_MST
+58N4 DP_TP_CTL_FORCE_ACT
+59N4 DP_TP_CTL_ENHANCED_FRAME_ENABLE 393r38 559r25 605r25
+60N4 DP_TP_CTL_FDI_AUTOTRAIN 560r25 606r25
+61N4 DP_TP_CTL_LINK_TRAIN_MASK 589r28 706r31
+62N4 DP_TP_CTL_LINK_TRAIN_PAT1 74r28 561r25 590r28
+63N4 DP_TP_CTL_LINK_TRAIN_PAT2 75r28
+64N4 DP_TP_CTL_LINK_TRAIN_PAT3 76r28
+65N4 DP_TP_CTL_LINK_TRAIN_IDLE 77r28
+66N4 DP_TP_CTL_LINK_TRAIN_NORMAL 78r28 607r25 707r31
+67N4 DP_TP_CTL_SCRAMBLE_DISABLE 74r57 75r57 76r57
+68N4 DP_TP_CTL_ALT_SCRAMBLER_RESET
+70A9 DP_TP_CTL_LINK_TRAIN_Array(5|34M12)<11|34E9[25|19]> 72r36 73r7
+72a4 DP_TP_CTL_LINK_TRAIN{70A9} 400r22
+80N4 DP_TP_STATUS_MIN_IDLES_SENT 426r34
+81N4 DP_TP_STATUS_FDI_AUTO_TRAIN_DONE 577r25
+83N4 PORT_CLK_SEL_LCPLL2700 96r35
+84N4 PORT_CLK_SEL_LCPLL1350 95r35
+85N4 PORT_CLK_SEL_LCPLL810 94r35
+86N4 PORT_CLK_SEL_SPLL 551r22
+87N4 PORT_CLK_SEL_WRPLL1
+88N4 PORT_CLK_SEL_WRPLL2
+89N4 PORT_CLK_SEL_NONE 530r25 611r25
+91A9 PORT_CLK_SEL_LCPLL_T(5|34M12)<8|78E9> 92r34 93r7
+92a4 PORT_CLK_SEL_LCPLL{91A9}
+98N4 DISPIO_CR_TX_BLNC_LEG_DISBL_MASK 330r28
+99N4 DISPIO_CR_TX_BLNC_LEG_SCTL_4_SHIFT 337r42
+100N4 DISPIO_CR_TX_BLNC_LEG_SCTL_4_MASK 331r28
+101N4 DISPIO_CR_TX_BLNC_LEG_SCTL_3_SHIFT 338r42
+102N4 DISPIO_CR_TX_BLNC_LEG_SCTL_3_MASK 332r28
+103N4 DISPIO_CR_TX_BLNC_LEG_SCTL_2_SHIFT 339r42
+104N4 DISPIO_CR_TX_BLNC_LEG_SCTL_2_MASK 333r28
+105N4 DISPIO_CR_TX_BLNC_LEG_SCTL_1_SHIFT 340r42
+106N4 DISPIO_CR_TX_BLNC_LEG_SCTL_1_MASK 334r28
+107N4 DISPIO_CR_TX_BLNC_LEG_SCTL_0_SHIFT 341r42
+108N4 DISPIO_CR_TX_BLNC_LEG_SCTL_0_MASK 335r28
+110A9 DDI_Buf_Trans_Regs_Array(30|1654E12)<18|39I9> 115r24 126r28 152r28
+. 178r28 204r28 230r28
+113R9 DDI_Registers 119e14 121r56 124r17 150r17 176r17 202r17 228r17
+114e7*BUF_CTL{30|1654E12} 125m10 151m10 177m10 203m10 229m10 442r38 480r41
+. 487r47 507r38 513r41 523r41 564r46 571r52 582r43 584r52 594r43 714r56
+115a7*BUF_TRANS{110A9} 126m10 152m10 178m10 204m10 230m10 312r50
+116e7*DP_TP_CTL{30|1654E12} 147m10 173m10 199m10 225m10 251m10 397r38 518r38
+. 557r43 587r46 591r52 603r43 705r49
+117e7*DP_TP_STATUS{30|36E9} 148m10 174m10 200m10 226m10 252m10 425r50 576r43
+118e7*PORT_CLK_SEL{30|1654E12} 149m10 175m10 201m10 227m10 253m10 529r41
+. 550r40 610r43 657r56
+121A9 DDI_Registers_Array(113R9)<15|268E9> 123r24 123r47
+123a4 DDI_Regs{121A9} 312r34 397r22 425r34 442r22 480r25 487r31 507r22 513r25
+. 518r22 523r25 529r25 550r22 557r25 564r28 571r34 576r25 582r25 584r34 587r28
+. 591r34 594r25 603r25 610r25 657r31 705r31 714r31
+257A9 Values(5|34M12)<15|268E9> 260r41 260r51 267r43 267r53 280r47 280r57
+258A9 Shifts(natural)<15|268E9> 273r44 273r54
+260a4 DPLL_CTRL2_DDIx_CLOCK_OFF{257A9} 534r25 662r31 762r41
+267a4 DPLL_CTRL2_DDIx_SELECT_MASK{257A9} 663r31
+273a4 DPLL_CTRL2_DDIx_SELECT_SHIFT{258A9} 666r34
+280a4 DPLL_CTRL2_DDIx_SELECT_OVERRIDE{257A9} 668r31
+301m7 Iboost_Value{5|34M12} 337r28 338r28 339r28 340r28 341r28
+305U23 Program_Buffer_Translations 305b23 305>52 315l17 315t44 319s16 322s16
+305e52 Port{15|270E12} 309r59 312r44
+307a16 Buffer_Translations{18|40A9} 309m38 313r34
+310i20 I{18|39I9} 312r61 313r55
+317e17 Port{15|268E9} 319r45
+347V13 Max_V_Swing{11|25E9[25|19]} 347b13 348>7 361l8 361t19 643r31
+348e7 Port{15|270E12} 356r22
+365V13 Max_Pre_Emph{11|27E9[25|19]} 365b13 366>7 367>7 380l8 380t20 644r31
+366e7 Port{15|270E12}
+367r7 Train_Set{11|29R9[25|19]} 373r35 375r18
+385U14 Set_TP_CTL 385b14 386>7 387>7 388>7 401l8 401t18 411s10 414s10 428s13
+386e7 Port{15|270E12} 397r32
+387r7 Link{8|99R9} 392r10
+388e7 Pattern{11|34E9[25|19]} 400r44
+390m7 DP_TP_CTL_Enhanced_Frame{5|34M12} 393m10 399r22
+403U14 Set_Training_Pattern 403b14 404>7 405>7 406>7 431l8 431t28 645r31
+404e7 Port{15|270E12} 411r22 414r22 417r51 423r16 425r44 428r25
+405r7 Link{8|99R9} 411r28 414r28 428r31
+406e7 Pattern{11|34E9[25|19]} 410r10 411r34
+433U14 Set_Signal_Levels 433b14 434>7 435>7 436>7 496l8 496t25 646r31
+434e7 Port{15|270E12} 442r32 480r35 487r41 494r40
+435r7 Link{8|99R9} 486r49
+436r7 Train_Set{11|29R9[25|19]} 449r15 451r21 458r21 465r21 471r21 494r46
+438b7 Was_Enabled{boolean} 444m22 489r14
+439i7 Trans_Select{43I12} 447m10 452m49 453m49 454m49 455m49 459m49 460m49
+. 461m49 462m49 466m49 467m49 468m49 472m49 473m49 485r51
+500U14 Digital_Off 500b14 500>27 536l8 536t19 647r31 744s7
+500e27 Port{15|270E12} 507r32 513r35 518r32 523r35 529r35 534r52
+502b7 Enabled{boolean} 509m22 511r10 521r10
+540U14 Train_FDI 540b14 541>7 542<7 616l8 616t17 652s10
+541r7 Port_Cfg{15|285R9} 545r37 570r52
+542b7 Success{boolean} 578m25 579r20 600r10
+554i11 Trans2{integer} 569r54
+625V16 To_DP{15|301E9} 625b16 625>23 635l11 635t16 642r31
+625e23 Port{15|270E12} 629r18
+636K15 Training[12|50] 672r13
+681i16 HDMI_Level{22|30I12} 686r63
+758m7 Clocks_Off{5|34M12} 762m13 762r27 764r52
+761e14 Port{15|270E12} 762r68
+X 20 hw-gfx-gma-connectors-ddi-buffers.ads
+15K43*Buffers 19|25w32 309r16 20|20e38
+18U14*Translations 19|309s24
+X 21 hw-gfx-gma-ddi_phy.ads
+17K28*DDI_Phy=17:55 19|24w17 354r13 373r13 494r10 678r30 681r38 686r16
+X 22 hw-gfx-gma-ddi_phy_stub.ads
+19E12*DDI_Phy_Port{15|268E9} 19|678r38
+21e4*Max_V_Swing{11|25E9[25|19]} 19|354r21
+23A9*Emph_Array(11|27E9[25|19])<11|25E9[25|19]>
+24a4*Max_Pre_Emph{23A9} 19|373r21
+26U14*Set_DP_Signal_Levels 19|494s18
+30I12*HDMI_Buf_Trans_Range{15|305I12} 19|681r46
+31U14*Set_HDMI_Signal_Levels 19|686s24
+X 23 hw-gfx-gma-dp_aux_ch.ads
+19K28*DP_Aux_Ch[9|30] 19|22w17 640r31
+X 25 hw-gfx-gma-dp_info.ads
+19K28*DP_Info[11|23] 19|21w17 71r14 74r7 75r7 76r7 77r7 78r7 349r14 358r13
+. 360r13 367r21 368r14 376r21 376r43 377r21 377r43 378r21 378r43 379r43 388r18
+. 406r18 408r16 410r20 414r34 428r37 436r21 450r18 452r24 453r24 454r24 455r24
+. 457r18 459r24 460r24 461r24 464r18 466r24 467r24 470r18 472r24 641r31
+X 26 hw-gfx-gma-pch.ads
+17K28*PCH 19|18r17 19r17 20r17 545r7 545r26 574r10 574r30 597r10 597r23 597r34
+. 614r10 614r23 614r34 720r13 721r13 721r42 722r13 723r24 738r10 739r10 739r30
+. 741r10 741r23 741r34 749r13 749r26 749r37 26|37e19
+19n27*FDI_A{19E9} 19|545r30 574r34 597r27 614r27 721r46 723r28 739r34 741r27
+. 749r30
+X 27 hw-gfx-gma-pch-fdi.ads
+15K24*FDI 19|18w21 545r11 574r14 597r14 597r38 614r14 614r38 741r14 741r38
+. 749r17 749r41 27|30e23
+19U14*Pre_Train 19|545s15
+24U14*Auto_Train 19|574s18
+27n22*Rx_Off{27E9} 19|741r42
+27n30*Lanes_Off{27E9} 19|597r42
+27n41*Clock_Off{27E9} 19|614r42 749r45
+28U14*Off 19|597s18 614s18 741s18 749s21
+X 28 hw-gfx-gma-pch-transcoder.ads
+15K24*Transcoder 19|19w21 721r17 739r14 28|25e30
+17U14*On 19|721s28
+22U14*Off 19|739s25
+X 29 hw-gfx-gma-pch-vga.ads
+15K24*VGA 19|20w21 720r17 722r17 738r14 29|25e23
+17U14*On 19|722s21
+18e7 Port{26|19E9} 19|723r16
+19r7 Mode{8|124R9} 19|724r16
+21U14*Off 19|738s18
+23U14*Clock_On 19|720s21
+X 30 hw-gfx-gma-registers.ads
+19K28*Registers 18|15w17 19|111r37 114r24 116r24 117r24 118r24 125r28 127r28
+. 128r28 129r28 130r28 131r28 132r28 133r28 134r28 135r28 136r28 137r28 138r28
+. 139r28 140r28 141r28 142r28 143r28 144r28 145r28 146r28 147r28 148r28 149r28
+. 151r28 153r28 154r28 155r28 156r28 157r28 158r28 159r28 160r28 161r28 162r28
+. 163r28 164r28 165r28 166r28 167r28 168r28 169r28 170r28 171r28 172r28 173r28
+. 174r28 175r28 177r28 179r28 180r28 181r28 182r28 183r28 184r28 185r28 186r28
+. 187r28 188r28 189r28 190r28 191r28 192r28 193r28 194r28 195r28 196r28 197r28
+. 198r28 199r28 200r28 201r28 203r28 205r28 206r28 207r28 208r28 209r28 210r28
+. 211r28 212r28 213r28 214r28 215r28 216r28 217r28 218r28 219r28 220r28 221r28
+. 222r28 223r28 224r28 225r28 226r28 227r28 229r28 231r28 232r28 233r28 234r28
+. 235r28 236r28 237r28 238r28 239r28 240r28 241r28 242r28 243r28 244r28 245r28
+. 246r28 247r28 248r28 249r28 250r28 251r28 252r28 253r28 311r19 328r10 329r28
+. 396r7 424r16 441r7 479r7 487r7 506r7 512r10 517r7 522r10 528r10 532r10
+. 533r25 549r7 556r10 563r10 571r10 575r10 581r10 584r10 586r10 591r10 593r10
+. 602r10 609r10 656r13 660r13 661r31 704r13 713r13 764r10 764r30 30|1827e25
+36E9*Registers_Invalid_Index 19|117r34 30|761e29
+37n7*Invalid_Register{36E9} 19|148r38
+137n7*PORT_CLK_SEL_DDIA{36E9} 19|149r38
+138n7*PORT_CLK_SEL_DDIB{36E9} 19|175r38
+139n7*PORT_CLK_SEL_DDIC{36E9} 19|201r38
+140n7*PORT_CLK_SEL_DDID{36E9} 19|227r38
+141n7*PORT_CLK_SEL_DDIE{36E9} 19|253r38
+214n7*DDI_BUF_CTL_A{36E9} 19|125r38
+222n7*DP_TP_CTL_A{36E9} 19|147r38
+223n7*DDI_BUF_CTL_B{36E9} 19|151r38
+231n7*DP_TP_CTL_B{36E9} 19|173r38
+232n7*DP_TP_STATUS_B{36E9} 19|174r38
+233n7*DDI_BUF_CTL_C{36E9} 19|177r38
+241n7*DP_TP_CTL_C{36E9} 19|199r38
+242n7*DP_TP_STATUS_C{36E9} 19|200r38
+243n7*DDI_BUF_CTL_D{36E9} 19|203r38
+251n7*DP_TP_CTL_D{36E9} 19|225r38
+252n7*DP_TP_STATUS_D{36E9} 19|226r38
+253n7*DDI_BUF_CTL_E{36E9} 19|229r38
+254n7*DP_TP_CTL_E{36E9} 19|251r38
+255n7*DP_TP_STATUS_E{36E9} 19|252r38
+263n7*DDI_BUF_TRANS_A_S0T1{36E9} 19|127r38
+264n7*DDI_BUF_TRANS_A_S0T2{36E9} 19|128r38
+265n7*DDI_BUF_TRANS_A_S1T1{36E9} 19|129r38
+266n7*DDI_BUF_TRANS_A_S1T2{36E9} 19|130r38
+267n7*DDI_BUF_TRANS_A_S2T1{36E9} 19|131r38
+268n7*DDI_BUF_TRANS_A_S2T2{36E9} 19|132r38
+269n7*DDI_BUF_TRANS_A_S3T1{36E9} 19|133r38
+270n7*DDI_BUF_TRANS_A_S3T2{36E9} 19|134r38
+271n7*DDI_BUF_TRANS_A_S4T1{36E9} 19|135r38
+272n7*DDI_BUF_TRANS_A_S4T2{36E9} 19|136r38
+273n7*DDI_BUF_TRANS_A_S5T1{36E9} 19|137r38
+274n7*DDI_BUF_TRANS_A_S5T2{36E9} 19|138r38
+275n7*DDI_BUF_TRANS_A_S6T1{36E9} 19|139r38
+276n7*DDI_BUF_TRANS_A_S6T2{36E9} 19|140r38
+277n7*DDI_BUF_TRANS_A_S7T1{36E9} 19|141r38
+278n7*DDI_BUF_TRANS_A_S7T2{36E9} 19|142r38
+279n7*DDI_BUF_TRANS_A_S8T1{36E9} 19|143r38
+280n7*DDI_BUF_TRANS_A_S8T2{36E9} 19|144r38
+281n7*DDI_BUF_TRANS_A_S9T1{36E9} 19|145r38
+282n7*DDI_BUF_TRANS_A_S9T2{36E9} 19|146r38
+283n7*DDI_BUF_TRANS_B_S0T1{36E9} 19|153r38
+284n7*DDI_BUF_TRANS_B_S0T2{36E9} 19|154r38
+285n7*DDI_BUF_TRANS_B_S1T1{36E9} 19|155r38
+286n7*DDI_BUF_TRANS_B_S1T2{36E9} 19|156r38
+287n7*DDI_BUF_TRANS_B_S2T1{36E9} 19|157r38
+288n7*DDI_BUF_TRANS_B_S2T2{36E9} 19|158r38
+289n7*DDI_BUF_TRANS_B_S3T1{36E9} 19|159r38
+290n7*DDI_BUF_TRANS_B_S3T2{36E9} 19|160r38
+291n7*DDI_BUF_TRANS_B_S4T1{36E9} 19|161r38
+292n7*DDI_BUF_TRANS_B_S4T2{36E9} 19|162r38
+293n7*DDI_BUF_TRANS_B_S5T1{36E9} 19|163r38
+294n7*DDI_BUF_TRANS_B_S5T2{36E9} 19|164r38
+295n7*DDI_BUF_TRANS_B_S6T1{36E9} 19|165r38
+296n7*DDI_BUF_TRANS_B_S6T2{36E9} 19|166r38
+297n7*DDI_BUF_TRANS_B_S7T1{36E9} 19|167r38
+298n7*DDI_BUF_TRANS_B_S7T2{36E9} 19|168r38
+299n7*DDI_BUF_TRANS_B_S8T1{36E9} 19|169r38
+300n7*DDI_BUF_TRANS_B_S8T2{36E9} 19|170r38
+301n7*DDI_BUF_TRANS_B_S9T1{36E9} 19|171r38
+302n7*DDI_BUF_TRANS_B_S9T2{36E9} 19|172r38
+303n7*DDI_BUF_TRANS_C_S0T1{36E9} 19|179r38
+304n7*DDI_BUF_TRANS_C_S0T2{36E9} 19|180r38
+305n7*DDI_BUF_TRANS_C_S1T1{36E9} 19|181r38
+306n7*DDI_BUF_TRANS_C_S1T2{36E9} 19|182r38
+307n7*DDI_BUF_TRANS_C_S2T1{36E9} 19|183r38
+308n7*DDI_BUF_TRANS_C_S2T2{36E9} 19|184r38
+309n7*DDI_BUF_TRANS_C_S3T1{36E9} 19|185r38
+310n7*DDI_BUF_TRANS_C_S3T2{36E9} 19|186r38
+311n7*DDI_BUF_TRANS_C_S4T1{36E9} 19|187r38
+312n7*DDI_BUF_TRANS_C_S4T2{36E9} 19|188r38
+313n7*DDI_BUF_TRANS_C_S5T1{36E9} 19|189r38
+314n7*DDI_BUF_TRANS_C_S5T2{36E9} 19|190r38
+315n7*DDI_BUF_TRANS_C_S6T1{36E9} 19|191r38
+316n7*DDI_BUF_TRANS_C_S6T2{36E9} 19|192r38
+317n7*DDI_BUF_TRANS_C_S7T1{36E9} 19|193r38
+318n7*DDI_BUF_TRANS_C_S7T2{36E9} 19|194r38
+319n7*DDI_BUF_TRANS_C_S8T1{36E9} 19|195r38
+320n7*DDI_BUF_TRANS_C_S8T2{36E9} 19|196r38
+321n7*DDI_BUF_TRANS_C_S9T1{36E9} 19|197r38
+322n7*DDI_BUF_TRANS_C_S9T2{36E9} 19|198r38
+323n7*DDI_BUF_TRANS_D_S0T1{36E9} 19|205r38
+324n7*DDI_BUF_TRANS_D_S0T2{36E9} 19|206r38
+325n7*DDI_BUF_TRANS_D_S1T1{36E9} 19|207r38
+326n7*DDI_BUF_TRANS_D_S1T2{36E9} 19|208r38
+327n7*DDI_BUF_TRANS_D_S2T1{36E9} 19|209r38
+328n7*DDI_BUF_TRANS_D_S2T2{36E9} 19|210r38
+329n7*DDI_BUF_TRANS_D_S3T1{36E9} 19|211r38
+330n7*DDI_BUF_TRANS_D_S3T2{36E9} 19|212r38
+331n7*DDI_BUF_TRANS_D_S4T1{36E9} 19|213r38
+332n7*DDI_BUF_TRANS_D_S4T2{36E9} 19|214r38
+333n7*DDI_BUF_TRANS_D_S5T1{36E9} 19|215r38
+334n7*DDI_BUF_TRANS_D_S5T2{36E9} 19|216r38
+335n7*DDI_BUF_TRANS_D_S6T1{36E9} 19|217r38
+336n7*DDI_BUF_TRANS_D_S6T2{36E9} 19|218r38
+337n7*DDI_BUF_TRANS_D_S7T1{36E9} 19|219r38
+338n7*DDI_BUF_TRANS_D_S7T2{36E9} 19|220r38
+339n7*DDI_BUF_TRANS_D_S8T1{36E9} 19|221r38
+340n7*DDI_BUF_TRANS_D_S8T2{36E9} 19|222r38
+341n7*DDI_BUF_TRANS_D_S9T1{36E9} 19|223r38
+342n7*DDI_BUF_TRANS_D_S9T2{36E9} 19|224r38
+343n7*DDI_BUF_TRANS_E_S0T1{36E9} 19|231r38
+344n7*DDI_BUF_TRANS_E_S0T2{36E9} 19|232r38
+345n7*DDI_BUF_TRANS_E_S1T1{36E9} 19|233r38
+346n7*DDI_BUF_TRANS_E_S1T2{36E9} 19|234r38
+347n7*DDI_BUF_TRANS_E_S2T1{36E9} 19|235r38
+348n7*DDI_BUF_TRANS_E_S2T2{36E9} 19|236r38
+349n7*DDI_BUF_TRANS_E_S3T1{36E9} 19|237r38
+350n7*DDI_BUF_TRANS_E_S3T2{36E9} 19|238r38
+351n7*DDI_BUF_TRANS_E_S4T1{36E9} 19|239r38
+352n7*DDI_BUF_TRANS_E_S4T2{36E9} 19|240r38
+353n7*DDI_BUF_TRANS_E_S5T1{36E9} 19|241r38
+354n7*DDI_BUF_TRANS_E_S5T2{36E9} 19|242r38
+355n7*DDI_BUF_TRANS_E_S6T1{36E9} 19|243r38
+356n7*DDI_BUF_TRANS_E_S6T2{36E9} 19|244r38
+357n7*DDI_BUF_TRANS_E_S7T1{36E9} 19|245r38
+358n7*DDI_BUF_TRANS_E_S7T2{36E9} 19|246r38
+359n7*DDI_BUF_TRANS_E_S8T1{36E9} 19|247r38
+360n7*DDI_BUF_TRANS_E_S8T2{36E9} 19|248r38
+361n7*DDI_BUF_TRANS_E_S9T1{36E9} 19|249r38
+362n7*DDI_BUF_TRANS_E_S9T2{36E9} 19|250r38
+389n7*DISPIO_CR_TX_BMU_CR0{36E9} 19|329r38
+401n7*DPLL_CTRL2{36E9} 19|533r35 661r41 764r40
+1654E12*Registers_Index{36E9} 19|111r47 114r34 116r34 118r34
+1685U14*Posting_Read 19|487s17 571s20 584s20 591s20
+1707U14*Write 19|311s29 396s17 528s20 549s17 556s20 602s20 609s20 656s23
+1708e8 Register{1654E12} 19|312r22 397r10 529r13 550r10 557r13 603r13 610r13
+. 657r16
+1709m8 Value{5|34M12} 19|313r22 398r10 530r13 551r10 558r13 604r13 611r13
+. 658r16
+1716U14*Is_Set_Mask 19|441s17 506s17 575s20
+1717e8 Register{1654E12} 19|442r10 507r10 576r13
+1718m8 Mask{5|34M12} 19|443r10 508r10 577r13
+1719b8 Result{boolean} 19|444r10 509r10 578r13
+1743U14*Wait_Set_Mask 19|424s26 522s20 593s20
+1744e7 Register{1654E12} 19|425r19 523r13 594r13
+1745m7 Mask{5|34M12} 19|426r19 524r13 595r13
+1762U14*Set_Mask 19|532s20 764s20
+1763e8 Register{1654E12} 19|533r13
+1764m8 Mask{5|34M12} 19|534r13
+1766U14*Unset_Mask 19|512s20 517s17 581s20
+1767e8 Register{1654E12} 19|513r13 518r10 582r13
+1768m8 Mask{5|34M12} 19|514r13 519r10 583r13
+1770U14*Unset_And_Set_Mask 19|328s20 479s17 563s20 586s20 660s23 704s23 713s23
+1771e8 Register{1654E12} 19|329r13 480r10 564r13 587r13 661r16 705r16 714r16
+1772m8 Mask_Unset{5|34M12} 19|330r13 481r10 565r13 588r13 662r16 706r16 715r16
+1773m8 Mask_Set{5|34M12} 19|336r13 484r10 568r13 590r13 664r16 707r16 717r16
+X 31 hw-gfx-gma-spll.ads
+15K20*SPLL 19|23w17 548r7 612r10 747r10 31|24e20
+20U14*On 19|548s12
+22U14*Off 19|612s15 747s15
+X 35 hw-time.ads
+15K12*Time 19|15w9 490r10 572r10 718r13 35|78e12
+54U14*U_Delay 19|490s15 572s15 718s18
+X 36 interfac.ads
+68M9*Unsigned_32
+

@@ -1,0 +1,50 @@
+config SOC_AMD_COMMON_BLOCK_PSP
+	bool
+	help
+	  This option builds in the Platform Security Processor initialization
+	  functions. Do not select this directly in SoC code, select
+	  SOC_AMD_COMMON_BLOCK_PSP_GENx instead.
+
+config SOC_AMD_COMMON_BLOCK_PSP_GEN1
+	bool
+	select SOC_AMD_COMMON_BLOCK_PSP
+	help
+	  Used by the PSP in AMD systems before family 17h, e.g. stoneyridge.
+
+config SOC_AMD_COMMON_BLOCK_PSP_GEN2
+	bool
+	select SOC_AMD_COMMON_BLOCK_PSP
+	select SOC_AMD_COMMON_BLOCK_SMN
+	help
+	  Used by the PSP in AMD family 17h, 19h and possibly newer CPUs.
+
+config SOC_AMD_PSP_SELECTABLE_SMU_FW
+	bool
+	help
+	  Some PSP implementations allow storing SMU firmware into cbfs and
+	  calling the PSP to load the blobs at the proper time.
+
+	  The soc/<codename> should select this if its PSP supports the feature
+	  and each mainboard can choose to select an appropriate fanless or
+	  fanned set of blobs.  Ask your AMD representative whether your APU
+	  is considered fanless.
+
+config SOC_AMD_COMMON_BLOCK_PSP_FUSE_SPL
+	bool
+	default n
+	depends on SOC_AMD_COMMON_BLOCK_PSP_GEN2
+	help
+	  Enable sending of set SPL message to PSP. Enable this option if the platform
+	  will require SPL fusing to be performed by PSP.
+
+config PSP_PLATFORM_SECURE_BOOT
+	bool "Platform secure boot enable"
+	depends on SOC_AMD_COMMON_BLOCK_PSP_GEN2
+	default n
+	help
+	  Select this config to enable PSP Platform Secure Boot.
+
+	  Platform Secure Boot will automatically be fused on boot if the
+	  coreboot ROM is properly signed and can not be disabled once fused.
+	  Refer AMD PSB user guide doc# 56654, Revision# 1.00, this document is
+	  only available with NDA customers.

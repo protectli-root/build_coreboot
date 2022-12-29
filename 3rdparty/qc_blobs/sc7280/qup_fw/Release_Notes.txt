@@ -1,0 +1,27 @@
+=================== Release 00006 ================================
+This Release Notes file covers these blobs:
+
+ * gsi_fw.bin
+
+Version: 00006
+
+Release Date: July 29, 2021
+
+Supported Silicon: SC7280
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version: N/A
+
+Errata: Nothing to report
+
+=================== Release 00002 ================================
+This Release Notes file covers these blobs:
+ * i2c_fw.bin
+ * spi_fw.bin
+ * uart_fw.bin
+
+Version: 00002
+
+Release Date: March 15, 2021

@@ -1,0 +1,101 @@
+V "GNAT Lib v11"
+A -gnatwa
+A -nostdinc
+A -Os
+A -Wuninitialized
+A -Wall
+A -Werror
+A -Wstrict-aliasing
+A -Wshadow
+A --RTS=build/libgnat-x86_32/
+A -gnatp
+A -g
+A -fno-common
+A -fomit-frame-pointer
+A -ffunction-sections
+A -fdata-sections
+A -fno-pie
+A -gnatwa
+A -gnatw.e
+A -gnatwe
+A -gnatwD
+A -gnatw.H
+A -gnatwH
+A -gnatwT
+A -gnatwU
+A -gnatw.U
+A -gnatw.W
+A -gnatw.Y
+A -gnatyN
+A -m32
+A -fuse-ld=bfd
+A -fno-stack-protector
+A -mtune=i386
+A -march=i386
+P FX
+
+RN
+RR NO_ACCESS_SUBPROGRAMS
+RR NO_ALLOCATORS
+RR NO_CALENDAR
+RR NO_DISPATCH
+RR NO_EXCEPTION_HANDLERS
+RR NO_FIXED_POINT
+RR NO_FLOATING_POINT
+RR NO_IO
+RR NO_IMPLICIT_DYNAMIC_CODE
+RR NO_IMPLICIT_HEAP_ALLOCATIONS
+RR NO_INITIALIZE_SCALARS
+RR NO_LOCAL_ALLOCATORS
+RR NO_RECURSION
+RR NO_SECONDARY_STACK
+RR NO_STREAMS
+RR NO_TASKING
+RR NO_UNCHECKED_ACCESS
+RR NO_UNCHECKED_DEALLOCATION
+RR STATIC_STORAGE_SIZE
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_IMPLICIT_LOOPS
+RV NO_OBSOLESCENT_FEATURES
+RR NO_WIDE_CHARACTERS
+
+U hw.gfx.gma.ddi_phy%s	hw-gfx-gma-ddi_phy.ads	943e94ef NE OO IU
+W hw%s			hw.ads			hw.ali
+W hw.gfx%s		hw-gfx.ads		hw-gfx.ali
+W hw.gfx.gma%s		hw-gfx-gma.adb		hw-gfx-gma.ali
+W hw.gfx.gma.ddi_phy_stub%s  hw-gfx-gma-ddi_phy_stub.ads  hw-gfx-gma-ddi_phy_stub.ali
+
+D hw.ads		20221227220751 349e873c hw%s
+D hw-config.ads		20221227230941 87823afc hw.config%s
+D hw-gfx.ads		20221227220751 d263ba5b hw.gfx%s
+D hw-gfx-dp_aux_ch.ads	20221227220751 52048a5d hw.gfx.dp_aux_ch%s
+D hw-gfx-dp_defs.ads	20221227220751 30f739dd hw.gfx.dp_defs%s
+D hw-gfx-dp_info.ads	20221227220751 445951f5 hw.gfx.dp_info%s
+D hw-gfx-framebuffer_filler.ads  20221227220751 0b5937f9 hw.gfx.framebuffer_filler%s
+D hw-gfx-gma.ads	20221227220751 20234815 hw.gfx.gma%s
+D hw-gfx-gma-ddi_phy.ads  20221227220751 f1dd1f0a hw.gfx.gma.ddi_phy%s
+D hw-gfx-gma-ddi_phy_stub.ads  20221227220751 45c0c3f0 hw.gfx.gma.ddi_phy_stub%s
+D hw-gfx-gma-dp_aux_ch.ads  20221227220751 53944791 hw.gfx.gma.dp_aux_ch%s
+D hw-gfx-gma-dp_aux_request.ads  20221227220751 d673ea1e hw.gfx.gma.dp_aux_request%s
+D hw-gfx-gma-dp_info.ads  20221227220751 38def494 hw.gfx.gma.dp_info%s
+D hw-gfx-i2c.ads	20221227220751 e54ab4f7 hw.gfx.i2c%s
+D hw-pci.ads		20221227220751 d2a0aee8 hw.pci%s
+D hw-port_io.ads	20221227220751 42e65734 hw.port_io%s
+D hw-time.ads		20221227220751 9808c5a0 hw.time%s
+D interfac.ads		20221227230943 8908571f interfaces%s
+D system.ads		20221227230943 21923ced system%s
+D s-unstyp.ads		20221227230943 9d58a4c0 system.unsigned_types%s
+D gnat.adc		20221227220753 00000000
+G a e
+X 1 hw.ads
+17K9*HW 91e7 9|15r6 17r17 17r44
+X 3 hw-gfx.ads
+21K12*GFX 1|17k9 3|217e11 9|15r9 17r20 17r47
+X 8 hw-gfx-gma.ads
+22K16*GMA 3|21k12 8|324e15 9|15r13 17r24 17r51
+X 9 hw-gfx-gma-ddi_phy.ads
+17K28*DDI_Phy=17:55
+X 10 hw-gfx-gma-ddi_phy_stub.ads
+17K28*DDI_Phy_Stub 9|15w17 17r55 10|35e28
+
