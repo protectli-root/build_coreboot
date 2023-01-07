@@ -9,7 +9,7 @@ function buildVP46xxImage {
 
 	fi
 
-	version=$(git describe)
+	version=$(git describe --abbrev=0)
 	version=${version}
 
 	docker run --rm -it -u $UID -v $PWD:/home/coreboot/coreboot \
