@@ -1,0 +1,9 @@
+** Build from MediaTek Internal **
+# v1.01.02
+1. Remove mtk header.
+
+# v1.01.01
+1. Revise the latency offset in SYSRAM for CPUFreq to be consistent with MT8195.
+
+# v1.01.00
+1. Initial release.

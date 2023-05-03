@@ -1,0 +1,77 @@
+=================== Release 00063 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00063
+
+Release Date : May 18, 2022
+
+Changes since last version :
+ * Hexacore update to cpucp and Sysini
+ * IPA SMMU configuration fixes
+=================== Release 00061 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00061
+
+Release Date : Apr 14, 2022
+
+Changes since last version :
+ * Modem Sand box change
+ * Static analysis fixes
+=================== Release 00056 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00056
+
+Release Date : Feb 28, 2022
+
+Changes since last version :
+ * NOC MaxDIV DCD enablement
+ * ac update
+=================== Release 00050 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00050
+
+Release Date : Nov 24, 2021
+
+Changes since last version :
+ * disabling L3 voting register for perf
+ * sysini update
+=================== Release 00047 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00047
+
+Release Date : Sep 28, 2021
+
+Changes since last version :
+ * WLAN Sandboxing
+ * Noc debug Improvement
+=================== Release 00044 ================================
+This Release Notes file covers these blobs:
+ * libqtisec.a
+
+Version : 00044
+
+Release Date : Aug 11, 2021
+
+Changes since last version :
+ * XPU and NOC related improvement
+ * Low Power Mode Enablement
+=================== Release 00033 ================================
+Version : 00033
+Release Date : March 30, 2021
+Supported Silicon : SC7280
+Library will be used for TF-A compilation for SC7280.
+binary is passed as QTISECLIB_PATH=<path with filename of qtisec lib> in TF-A compilation
+Changes since last version :
+* Perform SoC SC7280
+* PSCI Initialization
+* Interrupt registrartion and handling
+Errata : Nothing to report

@@ -1,0 +1,29 @@
+build/
+private*/
+# A "local" directory for hiding scripts and artifacts from git.
+local/
+*~
+*.swp
+tags
+TAGS
+/ctags
+cscope.*
+.tests-passed
+.failedboards/
+.sizes.txt
+
+# VSCode IDE
+.vscode/*
+!.vscode/README.md
+!.vscode/settings.json.default
+*.code-workspace
+
+# Python ignores
+*.pyc
+__pycache__
+*.egg-info
+.hypothesis/
+
+# Clangd language server
+.cache/clangd/index/*
+compile_commands.json

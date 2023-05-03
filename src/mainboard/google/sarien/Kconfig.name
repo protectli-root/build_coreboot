@@ -1,0 +1,7 @@
+comment "Sarien"
+
+config BOARD_GOOGLE_ARCADA
+	bool "->  Arcada (Latitude 5300 2-in-1 Chromebook Enterprise)"
+
+config BOARD_GOOGLE_SARIEN
+	bool "->  Sarien (Dell Latitude 5400 Chromebook Enterprise)"
