@@ -1,0 +1,66 @@
+config SOC_MEDIATEK_COMMON
+	bool
+	select NO_ECAM_MMCONF_SUPPORT if PCI
+	help
+	  common code blocks for Mediatek SOCs
+
+if SOC_MEDIATEK_COMMON
+
+config MEDIATEK_DRAM_DVFS
+	bool
+	default n
+	help
+	  This option enables DRAM calibration with multiple frequencies (low,
+	  medium and high frequency groups, with total 7 frequencies) for DVFS
+	  feature. All supported data rates are: 800, 1200, 1600, 1866, 2400,
+	  3200, 4266.
+
+config MEDIATEK_DRAM_DVFS_LIMIT_FREQ_CNT
+	bool
+	default y
+	depends on MEDIATEK_DRAM_DVFS
+	help
+	  This options limit DRAM frequency calibration count from total 7 to 3,
+	  other frequency will directly use the low frequency shu result.
+
+config MEDIATEK_BLOB_FAST_INIT
+	bool "Enable running fast calibration by blob"
+	default n
+	help
+	  This option allows performing fast calibration through different
+	  open-source policy.
+
+config MEMORY_TEST
+	bool
+	default y
+	help
+	  This option enables memory basic compare test to verify the DRAM read
+	  or write is as expected.
+
+config DPM_FOUR_CHANNEL
+	bool
+	default n
+	help
+	  This option enables four channel configuration for DPM.
+
+config MTK_DFD
+	bool "Enable MediaTek DFD (Design For Debug) settings"
+	help
+	  DFD (Design for Debug) is a debugging tool, which scans flip-flops
+	  and dumps to internal RAM on the WDT reset. We reserve 1MB on DRAM
+	  to store logs of DFD.
+
+config USE_CBMEM_DRAM_INFO
+	bool "Support filling dram information to cbmem"
+	help
+	  The DRAM initialization will keep and return DRAM information (size,
+	  geometry and other DDR info) so we can fill that into the CBMEM.
+
+config FLASH_DUAL_IO_READ
+	bool
+	default n
+	help
+	  When this option is enabled, the flash controller provides the ability
+	  to dual IO read mode.
+
+endif

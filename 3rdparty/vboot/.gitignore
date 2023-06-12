@@ -1,0 +1,9 @@
+/build
+/build-au
+/build-main
+Cargo.lock
+ID
+target
+.idea
+*.swp
+__pycache__

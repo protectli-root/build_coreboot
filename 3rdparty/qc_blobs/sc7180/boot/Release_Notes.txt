@@ -1,0 +1,281 @@
+=================== Release 00046 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00046
+
+Release Date : May, 2022
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  Longsys support fix
+ *  Cleanup of edk2 on Trogdor
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 12.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00044 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+ * dcb_slow.bin
+
+Version : 00044
+
+Release Date : Apr, 2022
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  SC7180P ChipID Addition
+ * 	Cleanup of edk2 on Trogdor
+ *  Addition of second dcb to support slow ddr freq
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 12.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00042 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+ * dcb.bin
+
+Version : 00042
+
+Release Date : Apr, 2022
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  Basetools to update for python3
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 12.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00037 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+ * dcb.bin
+
+Version : 00037
+
+Release Date : Mar, 2022
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  Rennell LC | Micron 8GB bitflip issue during WMM fix
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 12.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00035 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00035
+
+Release Date : Dec, 2021
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  LLVM update to 12.0.0
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 12.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00030 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00030
+
+Release Date : Sep, 2021
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  Second Source eMMC/DDR QSIP stability issue fix
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 10.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00029 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00029
+
+Release Date : Aug, 2021
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ *  Remove IPA scaling and proxy voting from Boot
+ *  SMMU invalidation failure fix
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 10.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00024 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00024
+
+Release Date : December 24, 2020
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ * Skip programming at low power configuration in QCLib
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 10.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00023 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00023
+
+Release Date : December 09, 2020
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ * Update XO adjust to fix frequency error
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 10.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00022 ================================
+This Release Notes file covers these blobs:
+ * QcLib.elf
+
+Version : 00022
+
+Release Date : November 03, 2020
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ * Remove Limitsisense library in QCLib
+ * MBA vulnerability fixes
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 10.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00020 ================================
+This Release Notes file covers these blobs:
+ * dcb.bin
+ * Pmic.bin
+ * QcLib.elf
+
+Version : 00020
+
+Release Date : September 21, 2020
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ * Boot time profiling optimizations in QCLib
+ * PMIC config changes for display
+ * GPIO config changes
+ * LLVM toolchain upgrade
+ * clock fixes in QCLib
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 10.0.0
+
+ABI Info : see qclib-interface.txt
+
+=================== Release 00359 ================================
+This Release Notes file covers these blobs:
+ * dcb.bin
+ * Pmic.bin
+ * QcLib.elf
+
+Version : 00359
+
+Release Date : September 19, 2019
+
+Supported Silicon : SC7180
+
+No special instructions, requirements or dependencies, files must be
+present in this folder to be pulled in during coreboot build
+
+Changes since last version :
+ * Perform SoC
+ * PMIC initialization
+ * DDR initialization
+
+Errata : Nothing to report
+
+Toolchain Version : LLVM 6.0.0
+
+ABI Info : see qclib-interface.txt
